@@ -31,15 +31,13 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
-.prova{
-  height: 100vh;
-}
+
 #app {
-   font-family: 'Oswald', sans-serif;;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+   font-family: 'Oswald', sans-serif;
+ // -webkit-font-smoothing: antialiased;
+  //-moz-osx-font-smoothing: grayscale;
+  //text-align: center;
+  //color: #2c3e50;
  //margin-top: 60px;
 }
 </style>

@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+//direttiva ScrollAnimation
+import ScrollAnimation from './directives/ScrollAnimation'
+Vue.directive('scrollanimation' , ScrollAnimation)
+
 // import 'bootstrap/dist/css/bootstrap.css'
 // import 'bootstrap/dist/js/bootstrap.js'
 
