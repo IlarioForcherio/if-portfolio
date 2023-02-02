@@ -7,7 +7,7 @@
                <!-- prima sezione -->
                 <div class="row w-75 m-auto">
                     <div class=" col-sm-12  col-md-8 col-lg-4 m-auto">
-                        <div class=" avatar">
+                        <div class="img">
                             <img class="img-fluid" src="../assets/img/io.jpeg" alt="">
                         </div>
                     </div>
@@ -31,18 +31,19 @@
                 <div class="row w-75 m-auto">
                     <div class=" col-4">
                          <button class="" >Contact me</button>
-                       
-                        
                     </div>
-                    <div class="col-8">
-                        <h2 class="role ">Web Developer</h2>
+                    <div class="col-4">
+                        <h2 class="web">Web </h2>
+                    </div>
+                    <div class="col-4">
+                        <h2 class="developer">Developer</h2>
                     </div>
                 </div>
   <!-- seconda sezione -->
                 <div class="row">
                     <div class="col">
-                        <section class="section watch d-flex align-items-center justify-content-center">
-                            <h2  class="title" v-scrollanimation> Questa e' la Seconda sezione</h2>
+                        <section class="section d-flex align-items-center justify-content-center">
+                            <h2 v-scroll-animation  class="titles op-0"> Questa e' la Seconda sezione</h2>
                             <!-- <h2>TECNOLOGIES</h2> -->
                         </section>
                     </div>
@@ -51,8 +52,8 @@
                 <div class="row">
                     <div class="col">
                         
-                        <section class="section watch d-flex align-items-center justify-content-center">
-                            <h2 class="title" v-scrollanimation> Questa e' la terza sezione</h2>
+                        <section class="section d-flex align-items-center justify-content-center">
+                            <h2 v-scroll-animation class="title op-0" > Questa e' la terza sezione</h2>
                         </section>
                     </div>
                 </div>
@@ -63,6 +64,9 @@
 </template>
 
 <script>
+
+import ScrollAnimation from '../directives/scrollanimation';
+
 export default {
     name: 'MainComp',
     components: {
@@ -71,69 +75,34 @@ export default {
     props: {
 
     },
+    directives:{
+     ScrollAnimation
+    },
     data() {
         return {
-        //elements_to_watch: document.querySelectorAll('.watch'),
-        //callback:'',
-       
-        //observer
-        //observer:new IntersectionObserver(),
+
 
         }
     },
     mounted() {
-    // this.observer,
-    // this.callback();
-    // this.function();
+   
 
     },
     methods: {
     
-    //    callback: function (items){
-    //     items.forEach(element => {
-    //         if(element.isIntersecting){
-    //             element.target.classlist.add("in_page");
-    //         }else{
-    //             element.target.classlist.remove("in_page")
-    //         }
-    //     });
-    // },
-
-    // function(){
-    //  this.elements_to_watch.forEach((elem) =>{
-    //     this.observer.observe(elem);
-    //  } )
-    // }
-
-
-
-
-
-        
-
-
+  
 
     },
 
 }
 </script>
 
+
+
 <style lang="scss" scoped>
-//javascript
+.op-0{ opacity: 0;}
 
-.before{
-color: green;
-}
-.enter{
-    //transform:scale(1.2);
-    //opacity: 1;
-    color: red;
-}
-
-// .section,.in_page{
-//     transform:scale(1.2);
-//     opacity: 1;
-// }
+ .text-appear { opacity: 0; animation: fadeIn 1s forwards; } @keyframes fadeIn {  0% {   opacity: 0; transform: translateY(20px); } 100% { opacity: 1; transform: translateY(0);}  } 
 
 
 main {
@@ -142,10 +111,6 @@ main {
     padding-top: 100px; //height: 200vh; //background-color: black;
 }
 
-// .sec1-cnt {
-//     //border: 1px solid white;
-  
-// }
 
 h1,.you {
     font-family: Helvetica Neue;
@@ -175,35 +140,45 @@ h1{
     overflow-wrap: break-word;
 }
 
-.role {
+.web,.developer{
     //border: 1px solid white;
-    line-height: 5rem;
-    
+    line-height: 6rem;
     font-family: Helvetica Neue;
-    font-size: 6rem;
+    font-size: 8rem;
     font-weight: bold;
     //inline-size: 360px;
     //overflow-wrap: break-word;
 }
+.developer{
+   font-size: 6rem;
+   inline-size: 360px;
+   overflow-wrap: break-word;
+   inline-size: 250px;
+   line-height: 4.5rem;
+}
 button{
     font-size: 1.5rem;
     background-color: orange;
-    padding: 10px 40px;
+    padding: 10px 55px;
     font-family: 'Oswald', sans-serif;
+    font-weight: bold;
     letter-spacing: 0.4rem;
 }
 
-.avatar img {
-    //padding: 100px;
-   // border: 1px solid white;
-    //aspect-ratio: 1/1;
-    width: 150%;
+// .img img {
+//     //padding: 100px;
+//    // border: 1px solid white;
+//     //aspect-ratio: 1/1;
+//     //width: 150%;
   
-}
+// }
 
 section {
     width: 100%;
     height: 100vh;
+}
+.section{
+    border: 1px solid white;
 }
 .title{
     text-align: center;

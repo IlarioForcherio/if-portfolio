@@ -33,6 +33,7 @@ export default {
 
 
 #app {
+  width: 100%;
    font-family: 'Oswald', sans-serif;
  // -webkit-font-smoothing: antialiased;
   //-moz-osx-font-smoothing: grayscale;
