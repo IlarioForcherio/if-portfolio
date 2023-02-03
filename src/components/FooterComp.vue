@@ -3,7 +3,7 @@
     <div>
      <footer>
         <section class="d-flex justify-content-center align-items-center">
-          <h2>Questo e' il footer</h2>   
+          <!-- <h2>Questo e' il footer</h2>    -->
         </section>
      </footer>
     </div>
