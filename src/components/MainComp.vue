@@ -38,7 +38,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-8  m-auto">
-                            <h2 v-scroll-animation id='portfolio' class="txt text-center pt-5 tecnologies">PORTFOLIO</h2>
+                            <h2 id='portfolio' class="txt text-center pt-5 tecnologies">PORTFOLIO</h2>
                             <div class="d-flex justify-content-center">
                                 <div class="stripe"></div>
                             </div>
@@ -49,8 +49,10 @@
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="../assets/img/css-3.png" class="d-block w-100" alt="...">
+                                    <div class="carousel-item active  ">
+                                        <!-- <img src="../assets/img/css-3.png" class="d-block w-100" alt="..."> -->
+                                    <iframe src="https://player.vimeo.com/video/796360855?h=660a3f941f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>   
+
                                     </div>
                                     <div class="carousel-item">
                                         <img src="../assets/img/html-5.png" class="d-block w-100" alt="...">
@@ -60,13 +62,13 @@
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Previous</span>
-                                            </button>
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
                                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Next</span>
-                                            </button>
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
                             </div>
                         </div>
                     </div>
@@ -78,7 +80,7 @@
                     <!-- contact-me-tecnologies -->
                     <div class="row">
                         <div class="col-sm-12  pt-5 text-center ">
-                            <h2 v-scroll-animation class="text-center tecnologies txt">TECNOLOGIES</h2>
+                            <h2 class="text-center tecnologies txt">TECNOLOGIES</h2>
                             <div class="d-flex justify-content-center">
                                 <div class="stripe"></div>
                             </div>
@@ -86,38 +88,39 @@
                     </div>
                     <!-- cards -->
                     <div class="row w-75 m-auto pt-5">
-                        <div class="pt-3 col-sm-12 col-md-6 col-lg-4  cards">
+                        <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
                             <a href="https://www.w3schools.com/html/html_intro.asp"><img class="img-fluid" src="../assets/img/html-5.png" alt=""></a>
                         </div>
-                        <div class="pt-3 col-sm-12 col-md-6 col-lg-4  cards">
+                        <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
                             <a href="https://www.w3schools.com/css/css_intro.asp"><img class="img-fluid" src="../assets/img/css-3.png" alt=""></a>
                         </div>
-                        <div class="pt-3 col-sm-12 col-md-6 col-lg-4  cards">
+                        <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
                             <a href="https://www.w3schools.com/js/js_intro.asp"><img class="img-fluid" src="../assets/img/javascript.png" alt=""></a>
                         </div>
-                        <div class="pt-3 col-sm-12 col-md-6 col-lg-4  cards">
+                        <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
                             <a href="https://getbootstrap.com/"><img class="img-fluid" src="../assets/img/bootstrap.png" alt=""></a>
                         </div>
-                        <div class="pt-3 col-sm-12 col-md-6 col-lg-4  cards">
+                        <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
                             <a href="https://www.figma.com/"><img class="img-fluid" src="../assets/img/figma.png" alt=""></a>
                         </div>
-                        <div class="pt-3 col-sm-12 col-md-6 col-lg-4  cards">
+                        <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
                             <a href="https://github.com/IlarioForcherio"><img class="img-fluid" src="../assets/img/github.png" alt=""></a>
                         </div>
-                        <div class="pt-3 col-sm-12 col-md-6 col-lg-4  cards">
+                        <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
                             <a href="https://www.mysql.com/it/"><img class="img-fluid" src="../assets/img/mysql.png" alt=""></a>
                         </div>
-                        <div class="pt-3 col-sm-12 col-md-6 col-lg-4  cards">
+                        <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
                             <a href="https://www.php.net/"><img class="img-fluid" src="../assets/img/php.png" alt=""></a>
                         </div>
-                        <div class="pt-3 col-sm-12 col-md-6 col-lg-4  cards">
+                        <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
                             <a href="https://laravel.com/"><img class="img-fluid" src="../assets/img/laravel.png" alt=""></a>
                         </div>
                     </div>
                 </div>
             </section>
-        </main>
+        </main>                                  
     </div>
+    
 </template>
 
 <script>
@@ -132,7 +135,7 @@ export default {
 
     },
     directives: {
-       // ScrollAnimation
+        // ScrollAnimation
     },
     data() {
         return {
@@ -202,8 +205,6 @@ main {
     font-size: 3.5rem; //inline-size: 300px;
     //overflow-wrap: break-word;
 }
-
-
 
 .contact:hover {
     color: black;
