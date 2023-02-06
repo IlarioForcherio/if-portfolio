@@ -203,19 +203,7 @@ main {
     //overflow-wrap: break-word;
 }
 
-.contact {
-    font-size: 1.5rem;
-    background-color: #212529;
-    border: 1px solid orange;
-    color: orange;
-    padding: 10px 55px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    letter-spacing: 0.4rem; // :hover{
-    //     color:#212529 ;
-    //     background-color: orange ;
-    // }
-}
+
 
 .contact:hover {
     color: black;

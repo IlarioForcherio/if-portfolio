@@ -79,11 +79,11 @@ nav {
 }
 
 .contact {
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: #212529;
     border: 1px solid orange;
     color: orange;
-    padding: 10px 55px;
+    padding: 8px 50px;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     
