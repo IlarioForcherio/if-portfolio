@@ -1,24 +1,24 @@
 //import Vue from 'vue';
 
-export default {
-    bind(el) {
-      let observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
-            entry.target.classList.add("text-appear");
-          } else {
-            entry.target.classList.remove("text-appear");
-          }
-        });
-      }, {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0.5
-      });
+// export default {
+//     bind(el) {
+//       let observer = new IntersectionObserver((entries) => {
+//         entries.forEach((entry) => {
+//           if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+//             entry.target.classList.add("text-appear");
+//           } else {
+//             entry.target.classList.remove("text-appear");
+//           }
+//         });
+//       }, {
+//         root: null,
+//         rootMargin: "0px",
+//         threshold: 0.5
+//       });
     
-      observer.observe(el);
-    }
-  };
+//       observer.observe(el);
+//     }
+//   };
 
 
   
@@ -31,25 +31,6 @@ export default {
 
 
 
-//Vue.directive('scrollanimation', {
-    //     inserted: function (el) {
-    //     let observer = new IntersectionObserver((entries) => {
-    //     entries.forEach((entry) => {
-    //     if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
-    //     entry.target.classList.add("text-appear");
-    //     } else {
-    //     entry.target.classList.remove("text-appear");
-    //     }
-    //     });
-    //     }, {
-    //     root: null,
-    //     rootMargin: "0px",
-    //     threshold: 0.5
-    //     });
-    //     observer.observe(el);
-    //     }
-    //     });
-     
       
      
        

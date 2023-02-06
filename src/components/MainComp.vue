@@ -121,7 +121,7 @@
 </template>
 
 <script>
-import ScrollAnimation from '../directives/scrollanimation';
+// import ScrollAnimation from '../directives/scrollanimation';
 
 export default {
     name: 'MainComp',
@@ -132,7 +132,7 @@ export default {
 
     },
     directives: {
-        ScrollAnimation
+       // ScrollAnimation
     },
     data() {
         return {
