@@ -1,5 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
+import Embed from 'v-video-embed'
+
+
+Vue.use(Embed);
 
 //direttiva ScrollAnimation
 //import ScrollAnimation from './directives/scrollanimation';

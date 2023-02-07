@@ -42,7 +42,7 @@ export default {
 
 footer{
     width: 100%;
-    height: 100vh;
+    //height: 100vh;
    background-color: #212529;  
 }
 h2{

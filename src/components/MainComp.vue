@@ -33,94 +33,125 @@
                     </div>
                 </div>
             </section>
+            <div class="d-flex justify-content-center">
+                <div class="border-section-bottom"></div>
+            </div>
+    
             <!-- seconda-sezione -->
             <section class="section">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-8  m-auto">
-                            <h2 id='portfolio' class="txt text-center pt-5 tecnologies">PORTFOLIO</h2>
-                            <div class="d-flex justify-content-center">
-                                <div class="stripe"></div>
-                            </div>
-                            <div id="carouselExampleIndicators" class="pt-5 carousel slide" data-bs-ride="carousel">
+                            <h2 id='portfolio' class="txt text-center  tecnologies">PORTFOLIO</h2>
+                            <!-- <div class="d-flex justify-content-center">
+                                        <div class="stripe"></div>
+                                    </div> -->
+                            <!-- carousel -->
+                            <div id="carouselExampleIndicators" class="pt-5 carousel slide">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active  ">
-                                        <!-- <img src="../assets/img/css-3.png" class="d-block w-100" alt="..."> -->
-                                    <iframe src="https://player.vimeo.com/video/796360855?h=660a3f941f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>   
-
+                                    <div class="carousel-item active">
+                                        <!-- <img src="#" class="d-block w-100" alt=""> -->
+                                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/8PRl3J8KlKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="../assets/img/html-5.png" class="d-block w-100" alt="...">
+                                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/DiLwQ73z-gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="../assets/img/bootstrap.png" class="d-block w-100" alt="...">
+                                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/El67qcPkJU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/L3eyiwgfdGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                    <span class="visually-hidden">Previous</span>
-                                                </button>
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Previous</span>
+                                                        </button>
                                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                    <span class="visually-hidden">Next</span>
-                                                </button>
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="visually-hidden">Next</span>
+                                                        </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <div class="d-flex justify-content-center">
+                <div class="border-section-bottom"></div>
+            </div>
             <!-- terza-sezione -->
             <section class="section">
                 <div class="container-fluid">
                     <!-- contact-me-tecnologies -->
                     <div class="row">
-                        <div class="col-sm-12  pt-5 text-center ">
+                        <div class="col-sm-12  text-center ">
                             <h2 class="text-center tecnologies txt">TECNOLOGIES</h2>
-                            <div class="d-flex justify-content-center">
-                                <div class="stripe"></div>
-                            </div>
+                            <!-- <div class="d-flex justify-content-center">
+                                        <div class="stripe"></div>
+                                    </div> -->
                         </div>
                     </div>
                     <!-- cards -->
-                    <div class="row w-75 m-auto pt-5">
-                        <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                            <a href="https://www.w3schools.com/html/html_intro.asp"><img class="img-fluid" src="../assets/img/html-5.png" alt=""></a>
+                    <div class="row w-50 m-auto pt-5 ">
+                        <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards  ">
+                            <a  href="https://www.w3schools.com/html/html_intro.asp"><img class="img-fluid" src="../assets/img/html-5.png" alt=""></a>
                         </div>
                         <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                            <a href="https://www.w3schools.com/css/css_intro.asp"><img class="img-fluid" src="../assets/img/css-3.png" alt=""></a>
+                            <a  href="https://www.w3schools.com/css/css_intro.asp"><img class="img-fluid" src="../assets/img/css-3.png" alt=""></a>
                         </div>
                         <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                            <a href="https://www.w3schools.com/js/js_intro.asp"><img class="img-fluid" src="../assets/img/javascript.png" alt=""></a>
+                            <a  href="https://www.w3schools.com/js/js_intro.asp"><img class="img-fluid" src="../assets/img/javascript.png" alt=""></a>
                         </div>
                         <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                            <a href="https://getbootstrap.com/"><img class="img-fluid" src="../assets/img/bootstrap.png" alt=""></a>
+                            <a  href="https://getbootstrap.com/"><img class="img-fluid" src="../assets/img/bootstrap.png" alt=""></a>
                         </div>
                         <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                            <a href="https://www.figma.com/"><img class="img-fluid" src="../assets/img/figma.png" alt=""></a>
+                            <a  href="https://www.figma.com/"><img class="img-fluid" src="../assets/img/figma.png" alt=""></a>
                         </div>
                         <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                            <a href="https://github.com/IlarioForcherio"><img class="img-fluid" src="../assets/img/github.png" alt=""></a>
+                            <a  href="https://github.com/IlarioForcherio"><img class="img-fluid" src="../assets/img/github.png" alt=""></a>
                         </div>
                         <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                            <a href="https://www.mysql.com/it/"><img class="img-fluid" src="../assets/img/mysql.png" alt=""></a>
+                            <a  href="https://www.mysql.com/it/"><img class="img-fluid" src="../assets/img/mysql.png" alt=""></a>
                         </div>
                         <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                            <a href="https://www.php.net/"><img class="img-fluid" src="../assets/img/php.png" alt=""></a>
+                            <a  href="https://www.php.net/"><img class="img-fluid" src="../assets/img/php.png" alt=""></a>
                         </div>
                         <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                            <a href="https://laravel.com/"><img class="img-fluid" src="../assets/img/laravel.png" alt=""></a>
+                            <a  href="https://laravel.com/"><img class="img-fluid" src="../assets/img/laravel.png" alt=""></a>
                         </div>
                     </div>
                 </div>
             </section>
-        </main>                                  
-    </div>
+            <div class="d-flex justify-content-center">
+                <div class="border-section-bottom"></div>
+            </div>
+            <!-- quarta-sezione -->
+            <section class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-sm-12   text-center">
+                            <h2 class="text-center tecnologies txt">ABOUT</h2>
+                            <div class="d-flex justify-content-center">
+                                <div class="stripe"></div>
+                            </div>
+                            <!-- <p class="pt-5 text-white"> " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus beatae vel veritatis rerum nostrum aspernatur cumque recusandae, illo odit molestias doloremque, reprehenderit, consectetur quod harum libero porro explicabo
+                                nisi consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia iure cum asperiores magnam, aliquid cumque voluptas tenetur qui ea, dolore dignissimos, quod repellat. Quas, deserunt voluptatum harum iusto
+                                facere nam. "</p> -->
     
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+    
+        </main>
+    </div>
 </template>
 
 <script>
@@ -160,15 +191,18 @@ export default {
 
 
 <style lang="scss" scoped>
-main {
-    padding-top: 100px;
-}
-
+// main {
+//     padding-top: 00px;
+// }
 .section {
     padding-bottom: 100px;
     padding-top: 100px;
-    width: 100%;
-    border-bottom: 1px solid rgb(66, 65, 65);
+    width: 100%; //border-bottom: 1px solid rgb(66, 65, 65);
+}
+
+.border-section-bottom {
+    width: 72%;
+    border: 1px solid rgb(66, 65, 65);
 }
 
 .b-w {
@@ -264,6 +298,8 @@ main {
 //  https://animejs.com/
 
 // https://greensock.com/gsap/
+
+
 
 
 
