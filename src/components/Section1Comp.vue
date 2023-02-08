@@ -36,21 +36,7 @@
             
             <div class="d-flex justify-content-center">
                 <div class="border-section-bottom"></div>
-            </div>
-    
-          
-            <div class="d-flex justify-content-center">
-                <div class="border-section-bottom"></div>
-            </div>
-           
-            <div class="d-flex justify-content-center">
-                <div class="border-section-bottom"></div>
-            </div>
-           
-                <div class="d-flex justify-content-center">
-                <div class="border-section-bottom"></div>
-            </div>
-    
+            </div>   
         </main>
     </div>
 </template>
@@ -91,7 +77,7 @@ export default {
 
 
 
-<style lang="scss" scoped>
+<style lang="scss" >
 // main {
 //     padding-top: 00px;
 // }

@@ -44,6 +44,10 @@
                 </div>
             </div>
         </section>
+            
+            <div class="d-flex justify-content-center">
+                <div class="border-section-bottom"></div>
+            </div>
     </div>
 </template>
 
