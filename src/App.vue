@@ -1,10 +1,15 @@
 <template>
   <div id="app"  data-bs-theme="dark">
-   
-    <HeaderComp/>
-    <MainComp/>
+   <div class="bg-dark">
+     <HeaderComp/>
+    <Section1Comp/>
+    <Section2Comp/>
+    <Section3Comp/>
+    <Section4Comp/>
     <FooterComp/>
     
+   </div>
+   
 
     
   </div>
@@ -13,14 +18,20 @@
 <script>
 
 import HeaderComp from './components/HeaderComp.vue'
-import MainComp from './components/MainComp.vue'
+import Section1Comp from './components/Section1Comp.vue'
+import Section2Comp from './components/Section2Comp.vue'
+import Section3Comp from './components/Section3Comp.vue'
+import Section4Comp from './components/Section4Comp.vue'
 import FooterComp from './components/FooterComp.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComp,
-    MainComp,
+    Section1Comp,
+    Section2Comp,
+    Section3Comp,
+    Section4Comp,
     FooterComp,
   }
 }
