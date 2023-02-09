@@ -2,49 +2,35 @@
     <div>
         <!-- terza-sezione -->
         <section class="section">
-            <div class="container-fluid">
-                <!-- contact-me-tecnologies -->
-                <div class="row justify-content-center">
-                    <div class="col-sm-12 col-lg-6  ">
-                        <h2 class="text-center tecnologies txt">TECNOLOGIES</h2>
+            <div class="container-fluid  pt-5 ">
+    
+                <div class="row m-auto  m-auto">
+                    
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                        <h2 class="txt text-center">This is <span style="color:orange">my</span> stack</h2>
                     </div>
-                </div>
-                <!-- cards -->
-                <div class="row w-50 pt-5  m-auto">
-                    <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards  ">
-                        <a href="https://www.w3schools.com/html/html_intro.asp"><img class="img-fluid" src="../assets/img/html-5.png" alt=""></a>
+   
+                    <!-- cards -->
+                    <div class="pt-5 cards d-flex  flex-wrap  col-sm-12 col-md-6 col-lg-12">
+                        <img class="img-fluid" src="../assets/img/html-5.png" alt="">
+                        <img class="img-fluid" src="../assets/img/css-3.png" alt="">
+                        <img class="img-fluid" src="../assets/img/javascript.png" alt="">
+                        <img class="img-fluid" src="../assets/img/bootstrap.png" alt="">
+                        <img class="img-fluid" src="../assets/img/figma.png" alt="">
+                        <img class="img-fluid" src="../assets/img/github.png" alt="">
+                        <img class="img-fluid" src="../assets/img/mysql.png" alt="">
+                        <img class="img-fluid" src="../assets/img/php.png" alt="">
+                        <img class="img-fluid" src="../assets/img/laravel.png" alt="">
                     </div>
-                    <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                        <a href="https://www.w3schools.com/css/css_intro.asp"><img class="img-fluid" src="../assets/img/css-3.png" alt=""></a>
-                    </div>
-                    <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                        <a href="https://www.w3schools.com/js/js_intro.asp"><img class="img-fluid" src="../assets/img/javascript.png" alt=""></a>
-                    </div>
-                    <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                        <a href="https://getbootstrap.com/"><img class="img-fluid" src="../assets/img/bootstrap.png" alt=""></a>
-                    </div>
-                    <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                        <a href="https://www.figma.com/"><img class="img-fluid" src="../assets/img/figma.png" alt=""></a>
-                    </div>
-                    <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                        <a href="https://github.com/IlarioForcherio"><img class="img-fluid" src="../assets/img/github.png" alt=""></a>
-                    </div>
-                    <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                        <a href="https://www.mysql.com/it/"><img class="img-fluid" src="../assets/img/mysql.png" alt=""></a>
-                    </div>
-                    <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                        <a href="https://www.php.net/"><img class="img-fluid" src="../assets/img/php.png" alt=""></a>
-                    </div>
-                    <div class="pt-3 col-sm-6 col-md-6 col-lg-4  cards">
-                        <a href="https://laravel.com/"><img class="img-fluid" src="../assets/img/laravel.png" alt=""></a>
-                    </div>
+
+    
                 </div>
             </div>
         </section>
-                
-            <div class="d-flex justify-content-center">
-                <div class="border-section-bottom"></div>
-            </div>
+    
+        <div class="d-flex justify-content-center">
+            <div class="border-section-bottom"></div>
+        </div>
     </div>
 </template>
 
@@ -62,12 +48,12 @@ export default {
     },
     data() {
         return {
-
+                
 
         }
     },
     mounted() {
-
+    this.AOS.init();
 
     },
     methods: {
@@ -78,3 +64,29 @@ export default {
 
 }
 </script>
+
+<style scoped>
+.txt {
+    color: white;
+    font-size: 13vw;
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    line-height: 7rem;
+    letter-spacing: 0rem;
+}
+
+/* .cards{
+   
+} */
+
+.cards a {
+    display: inline;
+    border: 1px solid black;
+}
+
+.cards img {
+    /* border: 1px solid black; */
+    width: 20%;
+    object-fit: contain;
+}
+</style>

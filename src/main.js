@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
+//youtube-video
 import Embed from 'v-video-embed'
 
+
+import VueAos from 'vue-aos'
+Vue.use(VueAos)
 
 Vue.use(Embed);
 

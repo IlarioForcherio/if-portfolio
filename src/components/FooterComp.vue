@@ -5,15 +5,9 @@
             <section class="pt-5">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col">
-                            <ul class="text-white">
-                                <li>Phone</li>
-                                <li>Email</li>
-                                <li>Github</li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <h3>Contact Me</h3>
+    
+                        <div class="col-12 text-center">
+                            <h3 id="contact" class="txt" >Contact Me <span style="color:orange">Here</span></h3>
                             <form ref="form" @submit.prevent="sendEmail" class="row g-3 text-white pt-5">
                                 <div class="col-md-6">
                                     <input  v-model="name" type="text" name="user_name" placeholder="Name"  class="form-control" >
@@ -35,6 +29,13 @@
                              <div class="text-white">{{successEmail}}</div>
                             </form>
                             
+                        </div>
+                                        <div class="col">
+                            <ul class="text-white">
+                                <li>Phone</li>
+                                <li>Email</li>
+                                <li>Github</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -96,10 +97,19 @@ footer {
     height: 200vh;
     background-color: #212529;
 }
+li{
+    display: inline;
+    padding: 130px;
+}
 
-h2 {
+
+
+.txt {
+    color: white;
+    font-size: 13vw;
     font-family: Helvetica Neue;
     font-weight: bold;
-    font-size: 7rem;
+    line-height: 7rem;
+    letter-spacing: 0rem;
 }
 </style>

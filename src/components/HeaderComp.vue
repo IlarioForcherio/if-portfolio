@@ -17,7 +17,7 @@
                                 <a class="nav-link" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacts</a>
+                                <a class="nav-link" href="#contact">Contacts</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -27,7 +27,7 @@
                             </li>
                         </ul>
                         <form class="d-flex justify-content-center">
-                            <button class="contact" type="submit">Contact Me!</button>
+                            <a href="#contact"><button class="contact" type="submit">Contact Me!</button></a>
                         </form>
                     </div>
                 </div>
