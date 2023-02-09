@@ -1,11 +1,11 @@
 <template>
     <div>
         <!-- seconda-sezione -->
-        <section class="section pt-5">
-            <div class=" container-fluid ">
+        <section class="section pt-5 ">
+            <div class=" container s m-auto">
                 <div class="row align-items-center">
                     <div class="col-sm-12 col-md-6 col-lg-12 ">
-                        <h2 id='portfolio' class=" txt text-center  tecnologies">Take a<span style="color:orange">look</span>to my work</h2>   
+                        <h2 id='portfolio' class=" txt  tecnologies">Take a<span style="color:orange">look</span>at my work</h2>   
                     </div>
  
                     <div class="col-sm-12 col-md-6 col-lg-12 m-auto pt-5">

@@ -6,7 +6,7 @@
                 <div class="container">
                     <div class="row align-items-center">
     
-                        <div class="col-12 text-center">
+                        <div class="col-12 ">
                             <h3 id="contact" class="txt" >Contact Me <span style="color:orange">Here</span></h3>
                             <form ref="form" @submit.prevent="sendEmail" class="row g-3 text-white pt-5">
                                 <div class="col-md-6">

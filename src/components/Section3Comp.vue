@@ -2,12 +2,12 @@
     <div>
         <!-- terza-sezione -->
         <section class="section">
-            <div class="container-fluid  pt-5 ">
+            <div class="container m-auto pt-5 ">
     
-                <div class="row m-auto  m-auto">
+                <div class="row m-auto">
                     
                     <div class="col-sm-12 col-md-6 col-lg-12">
-                        <h2 class="txt text-center">This is <span style="color:orange">my</span> stack</h2>
+                        <h2 class="txt ">This is <span style="color:orange">my</span> stack</h2>
                     </div>
    
                     <!-- cards -->
