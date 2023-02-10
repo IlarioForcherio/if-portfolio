@@ -2,17 +2,12 @@
     <div>
         <!-- terza-sezione -->
         <section class="section">
-            <div class="container m-auto pt-5 ">
+            <div class="container-fluid m-auto pt-5 ">
     
-                <div class="row m-auto">
-                    
-                    <div class="col-sm-12 col-md-6 col-lg-12">
-                        <h2 class="txt ">This is <span style="color:orange">my</span> stack</h2>
-                    </div>
-   
+                <div class="row m-auto w-80">
                     <!-- cards -->
-                    <div class="pt-5 cards d-flex  flex-wrap  col-sm-12 col-md-6 col-lg-12">
-                        <img class="img-fluid" src="../assets/img/html-5.png" alt="">
+                    <div class="pt-5 cards d-flex  flex-wrap  col-lg-6 bw">
+                        <img class="img-fluid " src="../assets/img/html-5.png" alt="">
                         <img class="img-fluid" src="../assets/img/css-3.png" alt="">
                         <img class="img-fluid" src="../assets/img/javascript.png" alt="">
                         <img class="img-fluid" src="../assets/img/bootstrap.png" alt="">
@@ -21,8 +16,15 @@
                         <img class="img-fluid" src="../assets/img/mysql.png" alt="">
                         <img class="img-fluid" src="../assets/img/php.png" alt="">
                         <img class="img-fluid" src="../assets/img/laravel.png" alt="">
+                        <img class="img-fluid" src="../assets/img/canva.png" alt="">
+                        <img class="img-fluid" src="../assets/img/vsc.png" alt="">
+                        <img class="img-fluid" src="../assets/img/npm.png" alt="">
                     </div>
-
+    
+                    <div class=" col-lg-6">
+                        <h2 class="txt  ">This is<span style="color:orange"> my</span> stack</h2>
+                    </div>
+    
     
                 </div>
             </div>
@@ -36,7 +38,7 @@
 
 <script>
 export default {
-    name: 'Section3Comp',
+    name: 'Section34Comp',
     components: {
 
     },
@@ -48,12 +50,12 @@ export default {
     },
     data() {
         return {
-                
+
 
         }
     },
     mounted() {
-    this.AOS.init();
+        //this.AOS.init();
 
     },
     methods: {
@@ -66,13 +68,23 @@ export default {
 </script>
 
 <style scoped>
+.w-80 {
+    width: 80%;
+    margin: auto;
+}
+
 .txt {
     color: white;
-    font-size: 13vw;
+    font-size: 7.6vw;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 7rem;
+    line-height: 8rem;
     letter-spacing: 0rem;
+}
+
+.bw {
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 /* .cards{
@@ -86,7 +98,9 @@ export default {
 
 .cards img {
     /* border: 1px solid black; */
-    width: 20%;
+    width: 25%;
     object-fit: contain;
+    border-radius: 10px;
+    padding: 5px;
 }
 </style>

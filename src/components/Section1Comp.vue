@@ -1,52 +1,53 @@
 
 <template>
     <div>
-        <main >
+        <main>
             <section class="section">
                 <!-- prima-sezione -->
-                <div class="m-auto container-sm d-flex justify-content-center">
-                    <div class="row m-auto">
-                        <div class="img col-sm-12 col-md-6  col-lg-3">
-                            <img class="img-fluid object-fit-contain" src="../assets/img/io.jpeg" alt="">
+                <div class="container-fluid">
+                    <div class="row   w-80">
+                        <!-- immagine -->
+                        <div class="col-lg-6 d-flex  img">
+                            <img class=" img-fluid" src="../assets/img/io.jpeg" alt="">
                         </div>
-                        <!-- sezione-text -->
-                        <div class="col-sm-12 col-md-6  col-lg-9  txt">
-                            <!-- text -->
-                            <div class="row m-auto">
-                                <div class="col">
-                                    <h1 class=" txt-h1 load-transition">Hi,Nice tomeet</h1>
-                                    <div class="row">
-                                        <div class="col-sm-12 col-md-6 col-lg-5">
-                                            <h1   class=" txt-h1 load-transition">you</h1>
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 col-lg-7">
-                                           <h2 class="i-f">i'm Ilario Focherio</h2>
-                                        </div>
-                                    </div>
-                                    <!-- i-f -->
-                                    <div class="row">
-                                        <div class="col">
-                                            <!-- <h2 class="i-f">ILARIO <span>FORCHERIO</span></h2> -->
-                                        </div>
-                                    </div>
-                                    <!-- web-developer -->
-                                    <div class="row">
-                                        <div class="col-5"></div>
-                        
-                                        <div class="col-6">
-                                            <h2 class="pt-4 w-developer txt">jr.Web Developer.</h2>
-                                        </div>
-                                    </div>
+                        <!-- tessto -->
+                        <div class="col-lg-6 bw">
+                            <div class="row">
+                                <div class="col-cm-12">
+                                  <h2 class="txt ">Hi, nice to meet</h2>  
                                 </div>
                             </div>
+                            
+                            <div class="row ">
+                                <div class="col-lg-5 ">
+                                    <h2 class="txt">you</h2>
+                                </div>
+                                <div class="col-lg-6 d-flex align-items-center">
+                                    <h2 class="i-f">I'm Ilario Forcherio</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+    
+                                <div class="col">
+                                    <h2 class="w-dev pt-2">Jr. Web Developer</h2>
+    
+                                </div>
+                            </div>
+    
                         </div>
+    
+    
                     </div>
+    
                 </div>
+    
+    
+    
+    
+    
+    
+    
             </section>
-            
-            <!-- <div class="d-flex justify-content-center">
-                <div class="border-section-bottom"></div>
-            </div>    -->
         </main>
     </div>
 </template>
@@ -92,14 +93,20 @@ export default {
 //     padding-top: 00px;
 // }
 .section {
-   // padding-bottom: 100px;
-    padding-top: 100px;
-    width: 100%; //border-bottom: 1px solid rgb(66, 65, 65);
+    // padding-bottom: 100px;
+    padding-top: 100px; //width: 100%; //border-bottom: 1px solid rgb(66, 65, 65);
 }
-.img img{
-width: 45%;
-position: absolute;
 
+.w-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.img img {
+    //padding: 30px;
+    width: 90%;
+    object-fit: contain; // position: relative;
+    // z-index: 0;
 }
 
 .border-section-bottom {
@@ -107,26 +114,20 @@ position: absolute;
     border: 1px solid rgb(66, 65, 65);
 }
 
-.b-w {
+.bw {
     border: 1px solid white;
+    border-radius: 10px;
 }
 
 .txt {
-    color: white;
-   // font-size: 8rem;
-    font-family: Helvetica Neue;
-    font-weight: bold;
-    line-height: 5.8rem;
-    letter-spacing: 0rem;
-}
-
-.txt-h1{
-    font-size: 14vmax  ;
+    font-size: 7vmax;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 7.3rem;
-
+    line-height: 7rem;
+    letter-spacing: -0.5rem; 
+    inline-size: 400px;
+    overflow-wrap: break-word;
 }
 
 .load-transition {
@@ -135,35 +136,31 @@ position: absolute;
 }
 
 .i-f {
-    animation: fadeIn 3s forwards;
+    // animation: fadeIn 3s forwards;
     letter-spacing: 0.4rem;
     padding-top: 20px;
-    color: rgb(255, 165, 0); 
-     font-size: 3.1rem;
-   //font-family: 'Oswald', sans-serif;
+    color: rgb(255, 165, 0);
+    font-size: 2.5vmax; //font-family: 'Oswald', sans-serif;
     font-family: Helvetica Neue;
-    font-weight: bold;
+    font-weight: bolder;
     overflow-wrap: normal;
-    line-height: 3rem;
+    line-height: 2.4rem;
 }
 
-.w-developer {
-    animation: fadeIn 3s forwards;
+.w-dev {
+   // animation: fadeIn 3s forwards;
+   font-family: Helvetica Neue;
+   font-weight: bolder;
     line-height: 3.5rem;
     font-size: 3.5rem; //inline-size: 300px;
     //overflow-wrap: break-word;
 }
-
-
-
 
 // .stripe {
 //     padding-top: 50px;
 //     width: 25%; //height: 1px;
 //     border-bottom: 1px solid rgb(66, 65, 65);
 // }
-
-
 //--------------------------scrollanimation--------------------------------//
 .op-0 {
     opacity: 0;

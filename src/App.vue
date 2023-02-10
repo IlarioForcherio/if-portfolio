@@ -4,8 +4,10 @@
      <HeaderComp/>
     <Section1Comp/>
     <Section2Comp/>
-    <Section3Comp/>
-    <Section4Comp/>
+     <Section4Comp/>
+      <Section3Comp/>
+    
+ 
     <FooterComp/>
     
    </div>
@@ -19,9 +21,10 @@
 
 import HeaderComp from './components/HeaderComp.vue'
 import Section1Comp from './components/Section1Comp.vue'
-import Section2Comp from './components/Section2Comp.vue'
 import Section3Comp from './components/Section3Comp.vue'
 import Section4Comp from './components/Section4Comp.vue'
+import Section2Comp from './components/Section2Comp.vue'
+
 import FooterComp from './components/FooterComp.vue'
 
 export default {
@@ -44,12 +47,10 @@ export default {
 
 
 #app {
-  width: 100%;
-   font-family: 'Oswald', sans-serif;
- // -webkit-font-smoothing: antialiased;
-  //-moz-osx-font-smoothing: grayscale;
-  //text-align: center;
-  //color: #2c3e50;
- //margin-top: 60px;
+      width: 100%;
+      font-family: Helvetica Neue;
+      
+      font-weight: bold;
+   
 }
 </style>

@@ -27,7 +27,8 @@
                             </li>
                         </ul>
                         <form class="d-flex justify-content-center">
-                            <a href="#contact"><button class="contact" type="submit">Contact Me!</button></a>
+                            
+                            <a class="contact"  href="#contact">Contact Me!</a>
                         </form>
                     </div>
                 </div>
@@ -67,6 +68,7 @@ export default {
 
 <style lang="scss" scoped>
 header {
+     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.3rem;
     width: 100%;
     position: fixed;
@@ -75,6 +77,7 @@ header {
 }
 
 nav {
+
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
@@ -84,7 +87,7 @@ nav {
     border: 1px solid orange;
     color: orange;
     padding: 8px 50px;
-    font-family: 'Oswald', sans-serif;
+    
     font-weight: bold;
     
 }
@@ -93,5 +96,8 @@ nav {
     color: black;
     background-color: orange;
     transition: background-color 0.5s;
+}
+a{
+   text-decoration: none; 
 }
 </style>

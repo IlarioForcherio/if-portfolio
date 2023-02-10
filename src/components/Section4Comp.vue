@@ -2,17 +2,16 @@
     <div>
         <!-- quarta-sezione -->
         <section class="section pt-5">
-            <div class="container m-auto">
-                <div class="row  m-auto">
-                    <div class="col ">
-                        <h2 class=" tecnologies txt pb-5">About</h2>
-                        <div class="d-flex justify-content-center">
-                            <div class="stripe"></div>
-                        </div>
-                        <p class="p-5 text-white"> " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus beatae vel veritatis rerum nostrum aspernatur cumque recusandae, illo odit molestias doloremque, reprehenderit, consectetur quod harum libero porro explicabo nisi
+            <div class="container-fluid ">
+                <div class="row w-80 m-auto">
+                    <div class="col-lg-6 ">
+                        <h2 class=" txt pb-5">About myself</h2>
+                    </div>
+                        <div class="col-lg-6">
+                        <p class="p-5 text-white bw"> " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus beatae vel veritatis rerum nostrum aspernatur cumque recusandae, illo odit molestias doloremque, reprehenderit, consectetur quod harum libero porro explicabo nisi
                             consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia iure cum asperiores magnam, aliquid cumque voluptas tenetur qui ea, dolore dignissimos, quod repellat. Quas, deserunt voluptatum harum iusto facere
                             nam. "</p>
-                    </div>
+                        </div>
                 </div>
             </div>
         </section>
@@ -24,7 +23,7 @@
 
 <script>
 export default {
-    name: 'Section2Comp',
+    name: 'AboutComp',
     components: {
 
     },
@@ -54,18 +53,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.w-80{
+    width: 80%;
+    margin: auto;
+}
 
 .txt {
     color: white;
-    font-size: 13vw;
+    font-size: 7.6vw;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 5.9rem;
+    line-height: 6rem;
     letter-spacing: 0rem;
 }
 
-p{
+
+.bw {
     border: 1px solid white;
+    border-radius: 10px;
 }
 
 
