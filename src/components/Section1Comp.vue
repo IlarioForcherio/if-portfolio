@@ -101,11 +101,11 @@ export default {
 
 .txt {
    
-    font-size: 10vmax;
+    font-size: 11vmax;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 15rem;
+    line-height: 6rem;
     letter-spacing: -0.5rem;
 }
 
@@ -114,7 +114,7 @@ export default {
     animation: fadeIn 3s forwards;
 }
 .if-cnt{
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .i-f {
@@ -176,11 +176,11 @@ export default {
   .txt{
    
     font-size: 11vmax;
-    line-height: 5.8rem;
+    line-height: 9.5rem;
   }
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 390px) {
   .txt{
    
    font-size: 9vmax;
@@ -188,11 +188,12 @@ export default {
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 374px) {
   .txt{
-    line-height: 7rem;
+    color: red;
+    line-height: 5rem;
     padding-top: 20px;
-   font-size: 9vmax;
+   font-size: 7vmax;
   }
 }
 
