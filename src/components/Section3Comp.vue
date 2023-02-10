@@ -6,7 +6,7 @@
     
                 <div class="row m-auto w-80">
                     <!-- cards -->
-                    <div class="p-2 cards d-flex  flex-wrap  col-lg-6 bw">
+                    <div class="p-2 cards d-flex  flex-wrap  col-lg-6 bw " data-aos="fade-left" >
                         <img class="img-fluid " src="../assets/img/html-5.png" alt="">
                         <img class="img-fluid" src="../assets/img/css-3.png" alt="">
                         <img class="img-fluid" src="../assets/img/javascript.png" alt="">

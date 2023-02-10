@@ -12,7 +12,7 @@
     
                         <div class="col-lg-5 ">
                            
-                            <form ref="form" @submit.prevent="sendEmail" class="bw row g-3 text-white pt-5">
+                            <form data-aos="fade-right"  ref="form" @submit.prevent="sendEmail" class="bw row g-3 text-white pt-5">
                                 <div class="col-md-6">
                                     <input v-model="name" type="text" name="user_name" placeholder="Name" class="form-control">
                                 </div>
@@ -31,6 +31,8 @@
                                 <div class="text-white">{{successEmail}}</div>
                             </form>
                         </div>
+
+
     
                         <!-- <div class="col">
                                 <ul class="text-white">

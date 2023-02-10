@@ -8,13 +8,13 @@
                     <div class="row   w-80">
                         <!-- immagine -->
                         <div class="col-lg-6 d-flex  img">
-                            <img class=" img-fluid" src="../assets/img/io.jpeg" alt="">
+                            <img class="load-transition  img-fluid" src="../assets/img/io.jpeg" alt="">
                         </div>
                         <!-- tessto -->
-                        <div class="col-lg-6 bw">
+                        <div class="col-lg-6 bw load-transition ">
                             <div class="row">
                                 <div class="col-cm-12">
-                                  <h2 class="txt ">Hi, nice to meet</h2>  
+                                  <h2 class=" txt">Hi, nice to meet</h2>  
                                 </div>
                             </div>
                             
@@ -29,24 +29,13 @@
                             <div class="row">
     
                                 <div class="col">
-                                    <h2 class="w-dev pt-5">Jr. Web Developer</h2>
+                                    <h2 class="w-dev ">Jr. Web Developer</h2>
     
                                 </div>
                             </div>
-    
                         </div>
-    
-    
                     </div>
-    
                 </div>
-    
-    
-    
-    
-    
-    
-    
             </section>
         </main>
     </div>
@@ -124,7 +113,7 @@ export default {
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 7rem;
+    line-height: 5rem;
     letter-spacing: -0.5rem; 
     inline-size: 400px;
     overflow-wrap: break-word;

@@ -4,8 +4,8 @@ import App from './App.vue'
 import Embed from 'v-video-embed'
 
 
-import VueAos from 'vue-aos'
-Vue.use(VueAos)
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 Vue.use(Embed);
 
@@ -20,4 +20,7 @@ Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App),
+  mounted(){
+    AOS.init()
+  }
 }).$mount('#app')
