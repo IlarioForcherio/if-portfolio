@@ -9,9 +9,7 @@
                         <h2 class="txt"><span style="color:orange">myself</span></h2>
                     </div>
                         <div class="col-lg-6">
-                        <p data-aos="fade-right"  class="p-4 text-white bw"> " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus beatae vel veritatis rerum nostrum aspernatur cumque recusandae, illo odit molestias doloremque, reprehenderit, consectetur quod harum libero porro explicabo nisi
-                            consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia iure cum asperiores magnam, aliquid cumque voluptas tenetur qui ea, dolore dignissimos, quod repellat. Quas, deserunt voluptatum harum iusto facere
-                            nam. "</p>
+                        <p data-aos="fade-right"  class="p-4 text-white bw"> "Proveniente da un settore completamente diverso, decido di cambiare vita e di mettermi in gioco seguendo quella che diventera' presto la mia passione, lo sviluppo web. Pronto a mettermi in gioco e desideroso di sperimentarmi sempre in nuove sfide e approfondire sempre  di piu' lo studio. "</p>
                         </div>
                 </div>
             </div>

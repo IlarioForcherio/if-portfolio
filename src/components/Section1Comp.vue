@@ -7,7 +7,7 @@
                 <div class="container-fluid">
                     <div class="row   w-80">
                         <!-- immagine -->
-                        <div class="col-lg-6 d-flex  img">
+                        <div class=" col-lg-6 d-flex  img">
                             <img class="load-transition  img-fluid" src="../assets/img/io.jpeg" alt="">
                         </div>
                         <!-- tessto -->
@@ -17,9 +17,9 @@
                                     <h2 class=" txt">Hi, nice to meet you</h2>
                                 </div>
                             </div>
-    
+
                             <div class="row if-cnt">
-                                <div class="col-lg-6 d-flex align-items-end">
+                                <div class=" col-lg-6 d-flex align-items-end">
                                     <h2 class="i-f">I'm Ilario Forcherio</h2>
                                 </div>
                                 <div class="col-lg-6 d-flex align-items-end">
@@ -100,7 +100,7 @@ export default {
 }
 
 .txt {
-   
+
     font-size: 11vmax;
     color: white;
     font-family: Helvetica Neue;
@@ -118,20 +118,20 @@ export default {
 }
 
 .i-f {
-    
+
     letter-spacing: 0.4rem;
     padding-top: 20px;
     color: rgb(255, 165, 0);
-    font-size: 3vmax; 
-    font-family: Helvetica Neue;
+    font-size: 3vmax;
+    font-family:'Helvetica Neue';
     font-weight: bolder;
     overflow-wrap: normal;
     line-height: 2.5rem;
 }
 
 .w-dev {
-    
-    font-family: Helvetica Neue;
+
+    font-family: 'Helvetica Neue';
     font-weight: bolder;
     line-height: 2.5rem;
     font-size: 2.5rem; //inline-size: 300px;
@@ -170,25 +170,25 @@ export default {
 //   }
 // }
 
+@media screen and (min-width: 1500px) {
+  .txt{
 
+    font-size: 14vmax;
+    line-height: 10rem;
+  }
+}
 
 @media screen and (min-width: 1275px) {
   .txt{
-   
+
     font-size: 11vmax;
     line-height: 7.5rem;
   }
 }
 
-@media screen and (max-width: 390px) {
-  .txt{
-   
-   font-size: 9vmax;
-   line-height: 18rem;
-  }
-}
 
-@media screen and (max-width: 374px) {
+
+@media  screen and (max-width: 354px)  {
   .txt{
     color: red;
     line-height: 5rem;
@@ -221,4 +221,3 @@ export default {
 
 
 
-  

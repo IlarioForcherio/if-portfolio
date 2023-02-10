@@ -6,7 +6,7 @@
     
                 <div class="row m-auto w-80">
                     <!-- cards -->
-                    <div class="p-2 cards d-flex  flex-wrap  col-lg-6 bw " data-aos="fade-left" >
+                    <div class="p-2  d-flex  flex-wrap ps-5  col-lg-6 bw " data-aos="fade-left" >
                         <img class="img-fluid " src="../assets/img/html-5.png" alt="">
                         <img class="img-fluid" src="../assets/img/css-3.png" alt="">
                         <img class="img-fluid" src="../assets/img/javascript.png" alt="">
@@ -67,7 +67,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .w-80 {
     width: 80%;
     margin: auto;
@@ -78,7 +78,7 @@ export default {
     font-size: 7.6vw;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 8.5rem;
+    line-height: 6rem;
     letter-spacing: 0rem;
     text-align: end;
 }
@@ -97,9 +97,10 @@ export default {
     border: 1px solid black;
 }
 
-.cards img {
+ img {
     /* border: 1px solid black; */
-    width: 25%;
+    
+    width: 30%;
     object-fit: contain;
     border-radius: 10px;
     padding: 5px;
@@ -107,13 +108,6 @@ export default {
 
 /* media query */
 
-/* @media screen and (min-width: 1275px) {
-  .txt{
-   color: red;
-    font-size: 19vmax;
-    line-height: 9.5rem;
-  }
-} */
 
 @media screen and (min-width: 375px) {
   .txt{

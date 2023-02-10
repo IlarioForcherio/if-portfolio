@@ -28,7 +28,7 @@
                         </ul>
                         <form class="d-flex justify-content-center">
                             
-                            <a class="contact"  href="#contact">Contact Me!</a>
+                            <a class="contact "  href="#contact">Contact Me!</a>
                         </form>
                     </div>
                 </div>
@@ -68,7 +68,8 @@ export default {
 
 <style lang="scss" scoped>
 header {
-     font-family: 'Oswald', sans-serif;
+    // font-family: 'Oswald', sans-serif;
+    font-family:    sans-serif;
     letter-spacing: 0.3rem;
     width: 100%;
     position: fixed;
@@ -87,7 +88,7 @@ nav {
     border: 1px solid orange;
     color: orange;
     padding: 8px 50px;
-    
+    border-radius: 10px;
     font-weight: bold;
     
 }

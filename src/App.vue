@@ -46,10 +46,11 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
 
+
+
 #app {
       width: 100%;
       font-family: Helvetica Neue;
-      
       font-weight: bold;
    
 }
