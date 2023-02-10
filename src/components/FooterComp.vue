@@ -7,9 +7,13 @@
                     <div class="row w-80 ">
                         <div class="col-lg-7">
                             <h3 id="contact" class="txt">Contact Me <span style="color:orange">Here</span></h3>
-    
+                            <div class="pt-5 d-flex justify-content-center align-items-center">
+                            <a class="pe-5 text-white" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
+                            <a class="pe-5 text-white" href="">ilarioforcherio@gmail.com</a>
+                            <a class="pe-5 text-white" href="https://github.com/IlarioForcherio"><font-awesome-icon icon="fa-brands fa-github" /></a>
+                            <a href="https://www.linkedin.com/in/ilario-forcherio-b413a340/overlay/1635516729495/single-media-viewer/?profileId=ACoAAAiZqKEBDn1sjExgdzB1fNz2txjK3KK0ing">Cv</a>
+                            </div>
                         </div>
-    
                         <div class="col-lg-5 ">
                            
                             <form data-aos="fade-right"  ref="form" @submit.prevent="sendEmail" class="bw row g-3 text-white pt-5">
@@ -31,16 +35,6 @@
                                 <div class="text-white">{{successEmail}}</div>
                             </form>
                         </div>
-
-
-    
-                        <!-- <div class="col">
-                                <ul class="text-white">
-                                    <li>Phone</li>
-                                    <li>Email</li>
-                                    <li>Github</li>
-                                </ul>
-                            </div> -->
                     </div>
                 </div>
             </section>
@@ -109,9 +103,11 @@ footer {
     padding-bottom: 100px;
 }
 
-li {
-    display: inline;
-    padding: 130px;
+a{
+    text-decoration: none;
+}
+.fa-github,.fa-linkedin{
+    font-size: 1.5rem;
 }
 
 .w-80 {
@@ -130,6 +126,7 @@ li {
     border: 1px solid white;
     border-radius: 10px;
 }
+
 
 /* media query */
 

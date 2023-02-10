@@ -5,11 +5,11 @@
             <div class="container-fluid ">
                 <div class="row w-80 m-auto">
                     <div class="col-lg-6">
-                        <h2 class="txt">About </h2>
+                        <h2 id="about" class="txt">About </h2>
                         <h2 class="txt"><span style="color:orange">myself</span></h2>
                     </div>
                         <div class="col-lg-6">
-                        <p data-aos="fade-right"  class="p-4 text-white bw"> "Proveniente da un settore completamente diverso, decido di cambiare vita e di mettermi in gioco seguendo quella che diventera' presto la mia passione, lo sviluppo web. Pronto a mettermi in gioco e desideroso di sperimentarmi sempre in nuove sfide e approfondire sempre  di piu' lo studio. "</p>
+                        <p data-aos="fade-right"  class="p-4 text-white bw"> "Proveniente da un settore completamente diverso, decido di cambiare vita e di mettermi in gioco seguendo quella che diventera' presto la mia passione, lo sviluppo web. Pronto a mettermi in gioco e desideroso di sperimentarmi sempre in nuove sfide e approfondire la mia formazione."</p>
                         </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@ export default {
     font-size: 9vw;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 6.9rem;
+    line-height: 6rem;
     letter-spacing: 0rem;
     
 }

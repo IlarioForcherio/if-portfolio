@@ -14,7 +14,7 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contacts</a>
@@ -23,7 +23,7 @@
                                 <a class="nav-link" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CV</a>
+                                <a class="nav-link" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/overlay/1635516729495/single-media-viewer/?profileId=ACoAAAiZqKEBDn1sjExgdzB1fNz2txjK3KK0ing">CV</a>
                             </li>
                         </ul>
                         <form class="d-flex justify-content-center">
