@@ -60,7 +60,7 @@ export default {
 
 .txt {
     color: white;
-    font-size: 7.6vw;
+    font-size: 10vw;
     font-family: Helvetica Neue;
     font-weight: bold;
     line-height: 6rem;
