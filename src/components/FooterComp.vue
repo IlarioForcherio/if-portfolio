@@ -4,7 +4,7 @@
         <footer>
             <section class="pt-5">
                 <div class="container-fluid">
-                    <div class="row w-80 align-items-center">
+                    <div class="row w-80 ">
                         <div class="col-lg-7">
                             <h3 id="contact" class="txt">Contact Me <span style="color:orange">Here</span></h3>
     

@@ -9,7 +9,7 @@
                         <h2 id='portfolio' class="txt  tecnologies">take a  <span style="color:orange">look</span> at my work</h2>   
                     </div>
                     <!-- carousel -->
-                    <div class="col-sm-12 col-md-6 col-lg-6 m-auto pt-5">
+                    <div class=" col-lg-6 m-auto pt-5">
                         <div id="carouselExampleIndicators" class=" carousel slide">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -96,7 +96,7 @@ export default {
     font-size: 7.4vmax;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 7.5rem;
+    line-height: 6rem;
     //letter-spacing: -0.5rem;
 }
 .bw {

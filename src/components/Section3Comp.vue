@@ -6,7 +6,7 @@
     
                 <div class="row m-auto w-80">
                     <!-- cards -->
-                    <div class="pt-5 cards d-flex  flex-wrap  col-lg-6 bw">
+                    <div class="p-2 cards d-flex  flex-wrap  col-lg-6 bw">
                         <img class="img-fluid " src="../assets/img/html-5.png" alt="">
                         <img class="img-fluid" src="../assets/img/css-3.png" alt="">
                         <img class="img-fluid" src="../assets/img/javascript.png" alt="">
@@ -22,7 +22,7 @@
                     </div>
     
                     <div class=" col-lg-6">
-                        <h2 class="txt  ">This is<span style="color:orange"> my</span> stack</h2>
+                        <h2 class="txt text-end ">This is<span style="color:orange"> my</span> stack</h2>
                     </div>
     
     

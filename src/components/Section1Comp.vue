@@ -19,7 +19,7 @@
                             </div>
                             
                             <div class="row ">
-                                <div class="col-lg-5 ">
+                                <div class="col-lg-4 ">
                                     <h2 class="txt">you</h2>
                                 </div>
                                 <div class="col-lg-6 d-flex align-items-center">
@@ -29,7 +29,7 @@
                             <div class="row">
     
                                 <div class="col">
-                                    <h2 class="w-dev pt-2">Jr. Web Developer</h2>
+                                    <h2 class="w-dev pt-5">Jr. Web Developer</h2>
     
                                 </div>
                             </div>
@@ -120,7 +120,7 @@ export default {
 }
 
 .txt {
-    font-size: 7vmax;
+    font-size: 7.6vmax;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
