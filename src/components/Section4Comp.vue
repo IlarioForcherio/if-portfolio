@@ -4,8 +4,9 @@
         <section class="section pt-5">
             <div class="container-fluid ">
                 <div class="row w-80 m-auto">
-                    <div class="col-lg-6 pt-5">
-                        <h2 class=" txt">About <span style="color:orange">myself</span></h2>
+                    <div class="col-lg-6">
+                        <h2 class="txt">About </h2>
+                        <h2 class="txt"><span style="color:orange">myself</span></h2>
                     </div>
                         <div class="col-lg-6">
                         <p data-aos="fade-right"  class="p-4 text-white bw"> " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus beatae vel veritatis rerum nostrum aspernatur cumque recusandae, illo odit molestias doloremque, reprehenderit, consectetur quod harum libero porro explicabo nisi
@@ -60,11 +61,12 @@ export default {
 
 .txt {
     color: white;
-    font-size: 10vw;
+    font-size: 9vw;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 6rem;
+    line-height: 6.9rem;
     letter-spacing: 0rem;
+    
 }
 
 
@@ -75,11 +77,11 @@ export default {
 
 //media query
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 370px) {
     
   .txt{
     
-    font-size: 12vw;
+    font-size: 15vw;
   }
 }
 

@@ -78,7 +78,7 @@ export default {
     font-size: 7.6vw;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 8rem;
+    line-height: 8.5rem;
     letter-spacing: 0rem;
     text-align: end;
 }
@@ -107,10 +107,19 @@ export default {
 
 /* media query */
 
+/* @media screen and (min-width: 1275px) {
+  .txt{
+   color: red;
+    font-size: 19vmax;
+    line-height: 9.5rem;
+  }
+} */
+
 @media screen and (min-width: 375px) {
   .txt{
     text-align: center;
-    font-size: 9.8vw;
+    font-size: 10.8vw;
+    
   }
 }
 
