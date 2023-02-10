@@ -11,28 +11,33 @@
                             <img class="load-transition  img-fluid" src="../assets/img/io.jpeg" alt="">
                         </div>
                         <!-- tessto -->
-                        <div class="col-lg-6 bw load-transition ">
+                        <div class="col-lg-6 bw vh load-transition ">
                             <div class="row">
                                 <div class="col-cm-12">
-                                  <h2 class=" txt">Hi, nice to meet</h2>  
+                                    <h2 class=" txt">Hi, nice to meet you</h2>
                                 </div>
                             </div>
-                            
-                            <div class="row ">
-                                <div class="col-lg-4 ">
-                                    <h2 class="txt">you</h2>
-                                </div>
-                                <div class="col-lg-6 d-flex align-items-center">
+    
+                            <div class="row  pt-2">
+                                <!-- <div class="col-lg-4 ">
+                                        <h2 class="txt">you</h2>
+                                    </div> -->
+                                <div class="col-lg-5 d-flex align-items-end">
                                     <h2 class="i-f">I'm Ilario Forcherio</h2>
                                 </div>
-                            </div>
-                            <div class="row">
-    
-                                <div class="col">
+                                <div class="col-lg-7 d-flex align-items-end">
                                     <h2 class="w-dev ">Jr. Web Developer</h2>
     
                                 </div>
                             </div>
+    
+                            <!-- <div class="row">
+        
+                                    <div class="col-lg-6">
+                                        <h2 class="w-dev ">Jr. Web Developer</h2>
+        
+                                    </div>
+                                </div> -->
                         </div>
                     </div>
                 </div>
@@ -78,6 +83,10 @@ export default {
 
 
 <style lang="scss" scoped>
+// .vh {
+//     height: 60vh;
+// }
+
 // main {
 //     padding-top: 00px;
 // }
@@ -109,14 +118,16 @@ export default {
 }
 
 .txt {
-    font-size: 7.6vmax;
+   // max-width: 100%;
+    font-size: 11vmax;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 5rem;
-    letter-spacing: -0.5rem; 
-    inline-size: 400px;
-    overflow-wrap: break-word;
+    line-height: 9rem;
+    letter-spacing: -0.5rem;
+   // inline-size: 500px;
+    //overflow: hidden; // text-overflow: ellipses;
+    //overflow-wrap: break-word;
 }
 
 .load-transition {
@@ -133,23 +144,19 @@ export default {
     font-family: Helvetica Neue;
     font-weight: bolder;
     overflow-wrap: normal;
-    line-height: 2.4rem;
+    line-height: 2.5rem;
 }
 
 .w-dev {
-   // animation: fadeIn 3s forwards;
-   font-family: Helvetica Neue;
-   font-weight: bolder;
-    line-height: 3.5rem;
-    font-size: 3.5rem; //inline-size: 300px;
+    // animation: fadeIn 3s forwards;
+    font-family: Helvetica Neue;
+    font-weight: bolder;
+    line-height: 2rem;
+    font-size: 2.5rem; //inline-size: 300px;
     //overflow-wrap: break-word;
 }
 
-// .stripe {
-//     padding-top: 50px;
-//     width: 25%; //height: 1px;
-//     border-bottom: 1px solid rgb(66, 65, 65);
-// }
+
 //--------------------------scrollanimation--------------------------------//
 .op-0 {
     opacity: 0;
