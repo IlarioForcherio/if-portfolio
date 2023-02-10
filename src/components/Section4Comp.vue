@@ -69,7 +69,7 @@ export default {
 
 
 .bw {
-    border: 1px solid white;
+    border: 1px solid rgb(107, 106, 106);
     border-radius: 10px;
 }
 

@@ -28,7 +28,7 @@
                         </ul>
                         <form class="d-flex justify-content-center">
                             
-                            <a class="contact "  href="#contact">Contact Me!</a>
+                            <a class="contact "  href="#contact">Contact Me</a>
                         </form>
                     </div>
                 </div>
@@ -97,6 +97,7 @@ nav {
     color: black;
     background-color: orange;
     transition: background-color 0.5s;
+    box-shadow: 2px 2px 2px 1px black;
 }
 a{
    text-decoration: none; 

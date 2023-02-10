@@ -51,7 +51,7 @@ export default {
 #app {
       width: 100%;
       font-family: Helvetica Neue;
-      font-weight: bold;
+      //font-weight: bold;
    
 }
 </style>

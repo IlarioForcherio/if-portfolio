@@ -9,9 +9,8 @@
                             <h3 id="contact" class="txt">Contact Me <span style="color:orange">Here</span></h3>
                             <div class="pt-5 d-flex justify-content-center align-items-center">
                             <a class="pe-5 text-white" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
-                            <a class="pe-5 text-white" href="">ilarioforcherio@gmail.com</a>
+                            <a class="pe-5 text-white" href="ilarioforcherio@gmail.com">ilarioforcherio@gmail.com</a>
                             <a class="pe-5 text-white" href="https://github.com/IlarioForcherio"><font-awesome-icon icon="fa-brands fa-github" /></a>
-                            <a href="https://www.linkedin.com/in/ilario-forcherio-b413a340/overlay/1635516729495/single-media-viewer/?profileId=ACoAAAiZqKEBDn1sjExgdzB1fNz2txjK3KK0ing">Cv</a>
                             </div>
                         </div>
                         <div class="col-lg-5 ">
@@ -37,6 +36,9 @@
                         </div>
                     </div>
                 </div>
+            <div class="w-80 d-flex justify-content-end  pt-5">
+                <a href="#" class=" text-white"><font-awesome-icon icon="fa-solid fa-circle-arrow-up" /></a>
+            </div>
             </section>
         </footer>
     </div>
@@ -109,6 +111,15 @@ a{
 .fa-github,.fa-linkedin{
     font-size: 1.5rem;
 }
+.fa-circle-arrow-up{
+  font-size: 3rem;
+  border-radius: 50%; 
+}
+
+.fa-circle-arrow-up:hover{
+    color: orange;
+    box-shadow: 2px 2px 2px 1px black;
+}
 
 .w-80 {
     width: 80%;
@@ -123,7 +134,7 @@ a{
     letter-spacing: 0rem;
 }
 .bw {
-    border: 1px solid white;
+    border: 1px solid rgb(107, 106, 106);
     border-radius: 10px;
 }
 

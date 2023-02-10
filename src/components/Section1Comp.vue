@@ -95,7 +95,7 @@ export default {
 }
 
 .bw {
-    border: 1px solid white;
+    border: 1px solid rgb(107, 106, 106);
     border-radius: 10px;
 }
 
@@ -113,6 +113,7 @@ export default {
     opacity: 1;
     animation: fadeIn 3s forwards;
 }
+
 .if-cnt{
     padding-top: 20px;
 }
