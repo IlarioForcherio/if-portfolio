@@ -16,7 +16,7 @@
                         <img class="img-fluid" src="../assets/img/mysql.png" alt="">
                         <img class="img-fluid" src="../assets/img/php.png" alt="">
                         <img class="img-fluid" src="../assets/img/laravel.png" alt="">
-                        <img class="img-fluid" src="../assets/img/canva.png" alt="">
+                        <img class="img-fluid" src="../assets/img/vue.png" alt="">
                         <img class="img-fluid" src="../assets/img/vsc.png" alt="">
                         <img class="img-fluid" src="../assets/img/npm.png" alt="">
                     </div>

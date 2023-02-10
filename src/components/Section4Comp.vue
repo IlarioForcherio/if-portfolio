@@ -78,7 +78,7 @@ export default {
 @media screen and (max-width: 375px) {
     
   .txt{
-    color: red;
+    
     font-size: 12vw;
   }
 }
