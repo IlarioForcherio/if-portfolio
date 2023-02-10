@@ -176,7 +176,7 @@ export default {
   .txt{
    
     font-size: 11vmax;
-    line-height: 9.5rem;
+    line-height: 7.5rem;
   }
 }
 
