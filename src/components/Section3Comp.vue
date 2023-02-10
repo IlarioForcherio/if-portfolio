@@ -22,7 +22,7 @@
                     </div>
     
                     <div class=" col-lg-6">
-                        <h2 class="txt text-end ">This is<span style="color:orange"> my</span> stack</h2>
+                        <h2 class="txt ">This is<span style="color:orange"> my</span> stack</h2>
                     </div>
     
     
@@ -80,6 +80,7 @@ export default {
     font-weight: bold;
     line-height: 8rem;
     letter-spacing: 0rem;
+    text-align: end;
 }
 
 .bw {
@@ -103,4 +104,15 @@ export default {
     border-radius: 10px;
     padding: 5px;
 }
+
+/* media query */
+
+@media screen and (min-width: 375px) {
+  .txt{
+    text-align: center;
+    font-size: 9.8vw;
+  }
+}
+
+
 </style>

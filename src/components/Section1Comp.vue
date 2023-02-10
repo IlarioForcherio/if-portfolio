@@ -18,26 +18,14 @@
                                 </div>
                             </div>
     
-                            <div class="row  pt-2">
-                                <!-- <div class="col-lg-4 ">
-                                        <h2 class="txt">you</h2>
-                                    </div> -->
-                                <div class="col-lg-5 d-flex align-items-end">
+                            <div class="row if-cnt">
+                                <div class="col-lg-6 d-flex align-items-end">
                                     <h2 class="i-f">I'm Ilario Forcherio</h2>
                                 </div>
-                                <div class="col-lg-7 d-flex align-items-end">
+                                <div class="col-lg-6 d-flex align-items-end">
                                     <h2 class="w-dev ">Jr. Web Developer</h2>
-    
                                 </div>
                             </div>
-    
-                            <!-- <div class="row">
-        
-                                    <div class="col-lg-6">
-                                        <h2 class="w-dev ">Jr. Web Developer</h2>
-        
-                                    </div>
-                                </div> -->
                         </div>
                     </div>
                 </div>
@@ -83,13 +71,7 @@ export default {
 
 
 <style lang="scss" scoped>
-// .vh {
-//     height: 60vh;
-// }
 
-// main {
-//     padding-top: 00px;
-// }
 .section {
     // padding-bottom: 100px;
     padding-top: 100px; //width: 100%; //border-bottom: 1px solid rgb(66, 65, 65);
@@ -102,7 +84,7 @@ export default {
 
 .img img {
     //padding: 30px;
-    width: 90%;
+    width: 100%;
     object-fit: contain; // position: relative;
     // z-index: 0;
 }
@@ -118,29 +100,29 @@ export default {
 }
 
 .txt {
-   // max-width: 100%;
-    font-size: 11vmax;
+   
+    font-size: 10vmax;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 9rem;
+    line-height: 15rem;
     letter-spacing: -0.5rem;
-   // inline-size: 500px;
-    //overflow: hidden; // text-overflow: ellipses;
-    //overflow-wrap: break-word;
 }
 
 .load-transition {
     opacity: 1;
     animation: fadeIn 3s forwards;
 }
+.if-cnt{
+    padding-top: 40px;
+}
 
 .i-f {
-    // animation: fadeIn 3s forwards;
+    
     letter-spacing: 0.4rem;
     padding-top: 20px;
     color: rgb(255, 165, 0);
-    font-size: 2.5vmax; //font-family: 'Oswald', sans-serif;
+    font-size: 3vmax; 
     font-family: Helvetica Neue;
     font-weight: bolder;
     overflow-wrap: normal;
@@ -148,10 +130,10 @@ export default {
 }
 
 .w-dev {
-    // animation: fadeIn 3s forwards;
+    
     font-family: Helvetica Neue;
     font-weight: bolder;
-    line-height: 2rem;
+    line-height: 2.5rem;
     font-size: 2.5rem; //inline-size: 300px;
     //overflow-wrap: break-word;
 }
@@ -176,6 +158,42 @@ export default {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+//media query
+
+// @media screen and (min-width: 1700px) {
+//   .txt{
+//    color:red;
+//     font-size: 1vmax;
+//     line-height: 0rem;
+//   }
+// }
+
+
+
+@media screen and (min-width: 1275px) {
+  .txt{
+   
+    font-size: 11vmax;
+    line-height: 5.8rem;
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .txt{
+   
+   font-size: 9vmax;
+   line-height: 18rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .txt{
+    line-height: 7rem;
+    padding-top: 20px;
+   font-size: 9vmax;
+  }
 }
 
 //--------------------------scrollanimation--------------------------------//

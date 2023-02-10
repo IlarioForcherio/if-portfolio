@@ -130,4 +130,13 @@ li {
     border: 1px solid white;
     border-radius: 10px;
 }
+
+/* media query */
+
+@media screen and (min-width: 375px) {
+  .txt{
+    text-align: center;
+    font-size: 9.3vw;
+  }
+}
 </style>

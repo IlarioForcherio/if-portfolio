@@ -5,7 +5,7 @@
             <div class="container-fluid ">
                 <div class="row w-80 m-auto">
                     <div class="col-lg-6 pt-5">
-                        <h2 class=" txt">About myself</h2>
+                        <h2 class=" txt">About <span style="color:orange">myself</span></h2>
                     </div>
                         <div class="col-lg-6">
                         <p data-aos="fade-right"  class="p-4 text-white bw"> " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus beatae vel veritatis rerum nostrum aspernatur cumque recusandae, illo odit molestias doloremque, reprehenderit, consectetur quod harum libero porro explicabo nisi
@@ -72,6 +72,17 @@ export default {
     border: 1px solid white;
     border-radius: 10px;
 }
+
+//media query
+
+@media screen and (max-width: 375px) {
+    
+  .txt{
+    color: red;
+    font-size: 12vw;
+  }
+}
+
 
 
 </style>
