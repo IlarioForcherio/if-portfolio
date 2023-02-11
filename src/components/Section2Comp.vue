@@ -4,8 +4,12 @@
         <section class="section pt-5 ">
             <div class=" container-fluid m-auto">
                 <div class="row align-items-end w-75 m-auto" >
+                                                            <!-- text -->
+                    <div data-aos="fade-left"  class="col-lg-6  p-5">
+                        <h2 id='portfolio' class="txt  tecnologies">Take a  <span style="color:orange">look</span> at my work</h2>   
+                    </div>
                     <!-- carousel -->
-                    <div data-aos="fade-right"  class="col-sm-12 col-lg-6 m-auto ">
+                    <div data-aos="fade-right"  class="bw p-3 col-sm-12 col-lg-6 m-auto ">
                         <div id="carouselExampleIndicators" class=" carousel slide">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -37,10 +41,7 @@
                             </button>
                         </div>
                     </div>
-                                        <!-- text -->
-                    <div data-aos="fade-left"  class="col-lg-6 bw p-5">
-                        <h2 id='portfolio' class="txt  tecnologies">Take a  <span style="color:orange">look</span> at my work</h2>   
-                    </div>
+
   
                 </div>
             </div>

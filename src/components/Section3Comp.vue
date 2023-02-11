@@ -6,11 +6,11 @@
     
                 <div class="row m-auto w-75 m-auto">
                     <!-- stack -->
-                    <div data-aos="fade-right"  class=" col-lg-6 p-5">
+                    <div data-aos="fade-left"  class=" col-lg-6 p-5">
                         <h2 class="txt text-center">This is<span style="color:orange"> my</span> stack</h2>
                     </div>
                     <!-- carousel -->
-                    <div data-aos="fade-left" class="col-sm-12 col-lg-6 bw">
+                    <div data-aos="fade-right" class="col-sm-12 col-lg-6 bw">
                         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">

@@ -4,7 +4,11 @@
         <footer>
             <section class="pt-5">
                 <div class="container-fluid">
-                    <div class="row w-80 ">
+                    <div class="row w-75 m-auto ">
+                                               <!-- contact-me-here -->
+                        <div data-aos="fade-left"  class="col-lg-6">
+                            <h3 id="contact" class="pt-5 txt text-center">Contact Me <span style="color:orange">Here</span></h3>
+                        </div>
                         <!-- form-contacts -->
                         <div class="col-lg-6">
                             <form data-aos="fade-right" ref="form" @submit.prevent="sendEmail" class="bw row g-3 text-white p-4">
@@ -24,10 +28,7 @@
                             </form>
                             
                         </div>
-                        <!-- contact-me-here -->
-                        <div data-aos="fade-left"  class="col-lg-6">
-                            <h3 id="contact" class="pt-5 txt text-center">Contact Me <span style="color:orange">Here</span></h3>
-                        </div>
+ 
                     </div>
                 </div>
                 <div class="d-flex w-75 m-auto">
