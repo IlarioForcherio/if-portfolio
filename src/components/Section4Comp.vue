@@ -14,7 +14,7 @@
     
                     <!-- text-p-->
                     <div class="col-lg-6">
-                        <p data-aos="fade-right" class="p-3 text-white bw"> "Mi chiamo Ilario e sono uno Junior Full Stack Developer. Prima di approdare nel mondo dello sviluppo web ho lavorato molti anni in un settore diverso, fino al momento in cui ho deciso che avrei voluto cambiare vita per accogliere
+                        <p data-aos="fade-right" class="text-center p-4 text-white bw"> "Mi chiamo Ilario e sono uno Junior Full Stack Developer. Prima di approdare nel mondo dello sviluppo web ho lavorato molti anni in un settore diverso, fino al momento in cui ho deciso che avrei voluto cambiare vita per accogliere
                             nuove sfide. Il Master Boolean me ne ha dato la possibilita' e ha trasformato in poco tempo una nuova scoperta in una grande passione. Ho imparato a mettermi in gioco e voglio continuare a farlo, quotidianamente e con entusiasmo."</p>
                     </div>
 
@@ -73,9 +73,8 @@ export default {
     letter-spacing: 0rem;
 }
 
-p {
-    //padding: 0 50px !important;
-    font-size: 1.1rem;
+p{
+    font-size: 1rem;
 }
 
 img {

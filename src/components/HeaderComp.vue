@@ -70,7 +70,7 @@ export default {
 header {
     // font-family: 'Oswald', sans-serif;
     font-family:    sans-serif;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -83,13 +83,14 @@ nav {
 }
 
 .contact {
+
     font-size: 1rem;
     background-color: #212529;
     border: 1px solid orange;
     color: orange;
-    padding: 8px 50px;
+    padding: 8px 20px;
     border-radius: 10px;
-    font-weight: bold;
+   
     
 }
 
