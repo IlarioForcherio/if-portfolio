@@ -32,7 +32,8 @@
                     </div>
                 </div>
                 <div class="d-flex w-75 m-auto">
-                    <div class="ps-5 pt-5 d-flex justify-content-center align-items-center">
+                    <!-- icons-email -->
+                    <div data-aos="fade-right"  class="ps-5 pt-5 d-flex justify-content-center align-items-center">
                         <a class="pe-5 text-white" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/">
                             <font-awesome-icon icon="fa-brands fa-linkedin" />
                         </a>
