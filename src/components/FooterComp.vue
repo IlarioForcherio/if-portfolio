@@ -40,7 +40,8 @@
                             <font-awesome-icon icon="fa-brands fa-github" />
                         </a>
                     </div>
-                    <div class="w-80 d-flex justify-content-end  pt-5">
+                    <!-- arrow-up -->
+                    <div data-aos="fade-up" class="w-80 d-flex justify-content-end  pt-5">
                         <a href="#" class=" text-white">
                             <font-awesome-icon icon="fa-solid fa-circle-arrow-up" />
                         </a>
