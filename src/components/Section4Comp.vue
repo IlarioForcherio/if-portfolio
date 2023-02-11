@@ -67,7 +67,7 @@ export default {
     font-size: 6vmax;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 4rem;
+    line-height: 5rem;
     letter-spacing: 0rem;
 }
 

@@ -97,7 +97,7 @@ export default {
     font-size: 6vmax;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 4.5rem;
+    line-height: 5rem;
     
     //letter-spacing: -0.5rem;
 }
