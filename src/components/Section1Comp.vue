@@ -101,7 +101,7 @@ export default {
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 7.5rem;
+    line-height: 7rem;
     letter-spacing: -0.5rem;
 }
 

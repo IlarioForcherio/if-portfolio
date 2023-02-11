@@ -20,7 +20,8 @@
                             <img class="img-fluid" src="../assets/img/vsc.png" alt="">
                             <img class="img-fluid" src="../assets/img/npm.png" alt="">
                         </div> -->
-                        <div class="col-sm-12 col-lg-6 bw">
+                        <!-- carousel -->
+                        <div data-aos="fade-left" class="col-sm-12 col-lg-6 bw">
                                               <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
