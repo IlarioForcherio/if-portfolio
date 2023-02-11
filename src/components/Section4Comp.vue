@@ -7,9 +7,7 @@
                                         <!-- about -->
                     <div data-aos="fade-left"  class=" col-lg-6 d-flex align-items-center">
                         <h2 id="about" class="txt text-center">About <span style="color:orange">myself</span></h2>
-                        <!-- <div class="d-flex justify-content-center">
-                                <img class="pt-3  img-fluid" src="../assets/img/io.jpeg" alt="">
-                            </div> -->
+
                     </div>
     
                     <!-- text-p-->

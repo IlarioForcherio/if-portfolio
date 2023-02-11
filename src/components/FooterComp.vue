@@ -142,9 +142,9 @@ a {
 
 .txt {
     color: white;
-    font-size: 5vmax;
+    font-size: 5.5vmax;
     font-weight: bold;
-    line-height: 4rem;
+    line-height: 5.5rem;
     letter-spacing: 0rem;
 }
 
