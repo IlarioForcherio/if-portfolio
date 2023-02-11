@@ -3,9 +3,9 @@
         <!-- quarta-sezione -->
         <section class="section pt-5">
             <div class="container-fluid ">
-                <div class="row w-75 m-auto">
+                <div class="row w-75 m-auto ">
                                         <!-- about -->
-                    <div data-aos="fade-left"  class="col-lg-6 d-flex align-items-center">
+                    <div data-aos="fade-left"  class=" col-lg-6 d-flex align-items-center">
                         <h2 id="about" class="txt text-center">About <span style="color:orange">myself</span></h2>
                         <!-- <div class="d-flex justify-content-center">
                                 <img class="pt-3  img-fluid" src="../assets/img/io.jpeg" alt="">
@@ -13,8 +13,8 @@
                     </div>
     
                     <!-- text-p-->
-                    <div class="col-lg-6">
-                        <p data-aos="fade-right" class="text-center p-4 text-white bw"> "Mi chiamo Ilario e sono uno Junior Full Stack Developer. Prima di approdare nel mondo dello sviluppo web ho lavorato molti anni in un settore diverso, fino al momento in cui ho deciso che avrei voluto cambiare vita per accogliere
+                    <div data-aos="fade-right" class=" bw col-lg-6">
+                        <p  class="text-center p-4 text-white"> "Mi chiamo Ilario e sono uno Junior Full Stack Developer. Prima di approdare nel mondo dello sviluppo web ho lavorato molti anni in un settore diverso, fino al momento in cui ho deciso che avrei voluto cambiare vita per accogliere
                             nuove sfide. Il Master Boolean me ne ha dato la possibilita' e ha trasformato in poco tempo una nuova scoperta in una grande passione. Ho imparato a mettermi in gioco e voglio continuare a farlo, quotidianamente e con entusiasmo."</p>
                     </div>
 

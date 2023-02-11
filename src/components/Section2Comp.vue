@@ -6,7 +6,7 @@
                 <div class="row align-items-end w-75 m-auto" >
                                                             <!-- text -->
                     <div data-aos="fade-left"  class="col-lg-6  p-5">
-                        <h2 id='portfolio' class="txt  tecnologies">Take a  <span style="color:orange">look</span> at my work</h2>   
+                        <h2 id='portfolio' class="txt  ">Take a  <span style="color:orange">look</span> at my work</h2>   
                     </div>
                     <!-- carousel -->
                     <div data-aos="fade-right"  class="bw p-3 col-sm-12 col-lg-6 m-auto ">
