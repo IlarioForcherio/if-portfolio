@@ -128,7 +128,7 @@ a{
 
 .txt {
     color: white;
-    font-size: 6vw;
+    font-size: 5vmax;
     font-weight: bold;
     line-height: 4rem;
     letter-spacing: 0rem;

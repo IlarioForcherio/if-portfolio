@@ -4,7 +4,7 @@
         <section class="section">
             <div class="container-fluid m-auto pt-5 ">
     
-                <div class="row m-auto w-80">
+                <div class="row m-auto w-75 m-auto">
                     <!-- cards -->
                     <!-- <div class="p-5  d-flex  flex-wrap ps-5  col-lg-6 bw " data-aos="fade-left" >
                             <img class="img-fluid " src="../assets/img/html-5.png" alt="">
@@ -34,15 +34,14 @@
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-                    </div>
-
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                         </div>
   
     
@@ -100,7 +99,7 @@ export default {
 
 .txt {
     color: white;
-    font-size: 6vw;
+    font-size: 6vmax;
     font-family: Helvetica Neue;
     font-weight: bold;
     line-height: 6rem;
@@ -127,14 +126,9 @@ img {
     width: 100%;
     object-fit: contain;
     border-radius: 10px;
-    padding: 100px;
+    padding: 90px;
 }
-.carousel-control-prev{
-    color:#212529 ;
-}
-button{
-    color:#212529 ;
-}
+
 
 /* media query */
 

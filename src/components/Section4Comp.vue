@@ -3,7 +3,7 @@
         <!-- quarta-sezione -->
         <section class="section pt-5">
             <div class="container-fluid ">
-                <div class="row w-80 m-auto">
+                <div class="row w-75 m-auto">
                     <div class="col-lg-6 ">
                         <h2 id="about" class="txt text-center">About <span style="color:orange">myself</span></h2>
                         <div class="d-flex justify-content-center">
@@ -63,7 +63,7 @@ export default {
 
 .txt {
     color: white;
-    font-size: 6vw;
+    font-size: 6vmax;
     font-family: Helvetica Neue;
     font-weight: bold;
     line-height: 4rem;
@@ -71,11 +71,11 @@ export default {
     
 }
 p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 img{
-    width: 45%;
+    width: 40%;
 }
 
 

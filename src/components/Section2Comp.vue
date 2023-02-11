@@ -3,7 +3,7 @@
         <!-- seconda-sezione -->
         <section class="section pt-5 ">
             <div class=" container-fluid m-auto">
-                <div class="row align-items-end w-80 " >
+                <div class="row align-items-end w-75 m-auto" >
                     <!-- text -->
                     <div data-aos="fade-left"  class="col-lg-6 bw p-5">
                         <h2 id='portfolio' class="txt  tecnologies">Take a  <span style="color:orange">look</span> at my work</h2>   

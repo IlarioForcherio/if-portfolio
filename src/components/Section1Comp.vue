@@ -13,17 +13,17 @@
                         <!-- tessto -->
                         <div class="col-lg-12 bw vh load-transition text-center p-5">
                             <div class="row">
-                                <div class="col-cm-12">
+                                <div class="col-sm-12">
                                     <h2 class=" txt">Hi, nice to meet you, my name is</h2>
                                 </div>
                             </div>
 
-                            <div class="row if-cnt">
-                                <div class=" col-lg-6 d-flex align-items-end">
+                            <div class="row if-cnt ">
+                                <div class=" col-lg-6 text-center">
                                     <h2 class="i-f">Ilario Forcherio</h2>
                                 </div>
-                                <div class="col-lg-6 d-flex align-items-end">
-                                    <h2 class="w-dev ">Web Developer</h2>
+                                <div class="col-lg-6 text-center">
+                                    <h2 class="w-dev pt-3">Web Developer</h2>
                                 </div>
                             </div>
                         </div>
