@@ -6,10 +6,6 @@
                 <!-- prima-sezione -->
                 <div class="container-fluid">
                     <div class="row   w-75 m-auto">
-                        <!-- immagine -->
-                        <!-- <div class=" col-lg-6 d-flex  img">
-                            <img class="load-transition  img-fluid" src="../assets/img/io.jpeg" alt="">
-                        </div> -->
                         <!-- tessto -->
                         <div class="col-lg-12 bw vh load-transition text-center p-5">
                             <div class="row">
@@ -18,7 +14,7 @@
                                 </div>
                             </div>
 
-                            <div class="row if-cnt ">
+                            <div class="row if-cnt">
                                 <div class=" col-lg-6 text-center">
                                     <h2 class="i-f">Ilario Forcherio</h2>
                                 </div>
@@ -114,9 +110,7 @@ export default {
     animation: fadeIn 3s forwards;
 }
 
-.if-cnt{
-    padding-top: 20px;
-}
+
 
 .i-f {
 
