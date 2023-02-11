@@ -5,11 +5,11 @@
             <div class=" container-fluid m-auto">
                 <div class="row align-items-end w-80 " >
                     <!-- text -->
-                    <div data-aos="fade-left"  class="col-lg-6 bw">
+                    <div data-aos="fade-left"  class="col-lg-6 bw p-5">
                         <h2 id='portfolio' class="txt  tecnologies">Take a  <span style="color:orange">look</span> at my work</h2>   
                     </div>
                     <!-- carousel -->
-                    <div class=" col-lg-6 m-auto">
+                    <div class=" col-lg-6 m-auto ">
                         <div id="carouselExampleIndicators" class=" carousel slide">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -93,10 +93,11 @@ export default {
 <style lang="scss" scoped>
 .txt {
     color: white;
-    font-size: 7.4vmax;
+    font-size: 6vmax;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 6rem;
+    line-height: 4.5rem;
+    
     //letter-spacing: -0.5rem;
 }
 .bw {

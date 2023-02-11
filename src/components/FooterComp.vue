@@ -6,16 +6,16 @@
                 <div class="container-fluid">
                     <div class="row w-80 ">
                         <div class="col-lg-7">
-                            <h3 id="contact" class="txt">Contact Me <span style="color:orange">Here</span></h3>
+                            <h3 id="contact" class="pt-5 txt text-center">Contact Me <span style="color:orange">Here</span></h3>
                             <div class="pt-5 d-flex justify-content-center align-items-center">
                             <a class="pe-5 text-white" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
                             <a class="pe-5 text-white" href="ilarioforcherio@gmail.com">ilarioforcherio@gmail.com</a>
                             <a class="pe-5 text-white" href="https://github.com/IlarioForcherio"><font-awesome-icon icon="fa-brands fa-github" /></a>
                             </div>
                         </div>
-                        <div class="col-lg-5 ">
+                        <div class="col-lg-5">
                            
-                            <form data-aos="fade-right"  ref="form" @submit.prevent="sendEmail" class="bw row g-3 text-white pt-5">
+                            <form  data-aos="fade-right"  ref="form" @submit.prevent="sendEmail" class="bw row g-3 text-white p-4">
                                 <div class="col-md-6">
                                     <input v-model="name" type="text" name="user_name" placeholder="Name" class="form-control">
                                 </div>
@@ -128,9 +128,9 @@ a{
 
 .txt {
     color: white;
-    font-size: 7.6vw;
+    font-size: 6vw;
     font-weight: bold;
-    line-height: 7rem;
+    line-height: 4rem;
     letter-spacing: 0rem;
 }
 .bw {
@@ -141,10 +141,10 @@ a{
 
 /* media query */
 
-@media screen and (min-width: 375px) {
-  .txt{
-    text-align: center;
-    font-size: 9.3vw;
-  }
-}
+// @media screen and (min-width: 375px) {
+//   .txt{
+//     text-align: center;
+//     font-size: 9.3vw;
+//   }
+// }
 </style>

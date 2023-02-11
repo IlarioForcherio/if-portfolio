@@ -5,25 +5,25 @@
             <section class="section">
                 <!-- prima-sezione -->
                 <div class="container-fluid">
-                    <div class="row   w-80">
+                    <div class="row   w-75 m-auto">
                         <!-- immagine -->
-                        <div class=" col-lg-6 d-flex  img">
+                        <!-- <div class=" col-lg-6 d-flex  img">
                             <img class="load-transition  img-fluid" src="../assets/img/io.jpeg" alt="">
-                        </div>
+                        </div> -->
                         <!-- tessto -->
-                        <div class="col-lg-6 bw vh load-transition ">
+                        <div class="col-lg-12 bw vh load-transition text-center p-5">
                             <div class="row">
                                 <div class="col-cm-12">
-                                    <h2 class=" txt">Hi, nice to meet you</h2>
+                                    <h2 class=" txt">Hi, nice to meet you, my name is</h2>
                                 </div>
                             </div>
 
                             <div class="row if-cnt">
                                 <div class=" col-lg-6 d-flex align-items-end">
-                                    <h2 class="i-f">I'm Ilario Forcherio</h2>
+                                    <h2 class="i-f">Ilario Forcherio</h2>
                                 </div>
                                 <div class="col-lg-6 d-flex align-items-end">
-                                    <h2 class="w-dev ">Jr. Web Developer</h2>
+                                    <h2 class="w-dev ">Web Developer</h2>
                                 </div>
                             </div>
                         </div>
@@ -101,11 +101,11 @@ export default {
 
 .txt {
 
-    font-size: 11vmax;
+    font-size: 9vmax;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 6rem;
+    line-height: 7.5rem;
     letter-spacing: -0.5rem;
 }
 
@@ -126,8 +126,8 @@ export default {
     font-size: 3vmax;
     font-family:'Helvetica Neue';
     font-weight: bolder;
-    overflow-wrap: normal;
-    line-height: 2.5rem;
+    //overflow-wrap: normal;
+    //line-height: 2.5rem;
 }
 
 .w-dev {

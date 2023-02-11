@@ -4,12 +4,16 @@
         <section class="section pt-5">
             <div class="container-fluid ">
                 <div class="row w-80 m-auto">
-                    <div class="col-lg-6">
-                        <h2 id="about" class="txt">About </h2>
-                        <h2 class="txt"><span style="color:orange">myself</span></h2>
+                    <div class="col-lg-6 ">
+                        <h2 id="about" class="txt text-center">About <span style="color:orange">myself</span></h2>
+                        <div class="d-flex justify-content-center">
+                          <img class="pt-3  img-fluid" src="../assets/img/io.jpeg" alt="">   
+                        </div>
+                       
+                        <!-- <h2 class="txt"><span style="color:orange">myself</span></h2> -->
                     </div>
                         <div class="col-lg-6">
-                        <p data-aos="fade-right"  class="p-4 text-white bw"> "Proveniente da un settore completamente diverso, decido di cambiare vita e di mettermi in gioco seguendo quella che diventera' presto la mia passione, lo sviluppo web. Pronto a mettermi in gioco e desideroso di sperimentarmi sempre in nuove sfide e approfondire la mia formazione."</p>
+                        <p data-aos="fade-right"  class="p-5 text-white bw"> "Proveniente da un settore completamente diverso, decido di cambiare vita e di mettermi in gioco seguendo quella che diventera' presto la mia passione, lo sviluppo web. Pronto a mettermi in gioco e desideroso di sperimentarmi sempre in nuove sfide e approfondire la mia formazione."</p>
                         </div>
                 </div>
             </div>
@@ -59,12 +63,19 @@ export default {
 
 .txt {
     color: white;
-    font-size: 9vw;
+    font-size: 6vw;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 6rem;
+    line-height: 4rem;
     letter-spacing: 0rem;
     
+}
+p{
+    font-size: 1.2rem;
+}
+
+img{
+    width: 45%;
 }
 
 
