@@ -6,7 +6,7 @@
     
                 <div class="row m-auto w-75 m-auto">
                     <!-- stack -->
-                    <div data-aos="fade-left"  class=" col-lg-6 p-5">
+                    <div data-aos="fade-left"  class="col-sm-12 col-lg-6 p-5">
                         <h2 class="txt text-center">This is<span style="color:orange"> my</span> stack</h2>
                     </div>
                     <!-- carousel -->
@@ -109,7 +109,7 @@ export default {
     font-size: 6vmax;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 6rem;
+    line-height: 4.5rem;
     letter-spacing: 0rem;
     text-align: end;
 }

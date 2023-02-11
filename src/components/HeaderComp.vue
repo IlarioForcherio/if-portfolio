@@ -23,7 +23,7 @@
                                 <a class="nav-link" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/overlay/1635516729495/single-media-viewer/?profileId=ACoAAAiZqKEBDn1sjExgdzB1fNz2txjK3KK0ing">CV</a>
+                                <a class="nav-link" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/overlay/1635516628854/single-media-viewer/?profileId=ACoAAAiZqKEBDn1sjExgdzB1fNz2txjK3KK0ing">CV</a>
                             </li>
                         </ul>
                         <form class="d-flex justify-content-center">

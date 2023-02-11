@@ -7,7 +7,7 @@
                     <div class="row w-75 m-auto ">
                                                <!-- contact-me-here -->
                         <div data-aos="fade-left"  class="col-lg-6">
-                            <h3 id="contact" class="pt-5 txt text-center">Contact Me <span style="color:orange">Here</span></h3>
+                            <h3 id="contact" class="pt-5 pb-5 txt text-center">Contact Me <span style="color:orange">Here</span></h3>
                         </div>
                         <!-- form-contacts -->
                         <div class="col-lg-6">
