@@ -165,32 +165,32 @@ export default {
 //   }
 // }
 
-@media screen and (min-width: 1500px) {
-  .txt{
+// @media screen and (min-width: 1500px) {
+//   .txt{
 
-    font-size: 14vmax;
-    line-height: 10rem;
-  }
-}
+//     font-size: 14vmax;
+//     line-height: 10rem;
+//   }
+// }
 
-@media screen and (min-width: 1275px) {
-  .txt{
+// @media screen and (min-width: 1275px) {
+//   .txt{
 
-    font-size: 11vmax;
-    line-height: 7.5rem;
-  }
-}
+//     font-size: 11vmax;
+//     line-height: 7.5rem;
+//   }
+// }
 
 
 
-@media  screen and (max-width: 354px)  {
-  .txt{
-    color: red;
-    line-height: 5rem;
-    padding-top: 20px;
-   font-size: 7vmax;
-  }
-}
+// @media  screen and (max-width: 354px)  {
+//   .txt{
+    
+//     line-height: 5rem;
+//     padding-top: 20px;
+//    font-size: 7vmax;
+//   }
+// }
 
 //--------------------------scrollanimation--------------------------------//
 // .wd{

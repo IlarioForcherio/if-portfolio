@@ -5,17 +5,9 @@
             <section class="pt-5">
                 <div class="container-fluid">
                     <div class="row w-80 ">
-                        <div class="col-lg-7">
-                            <h3 id="contact" class="pt-5 txt text-center">Contact Me <span style="color:orange">Here</span></h3>
-                            <div class="pt-5 d-flex justify-content-center align-items-center">
-                            <a class="pe-5 text-white" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
-                            <a class="pe-5 text-white" href="ilarioforcherio@gmail.com">ilarioforcherio@gmail.com</a>
-                            <a class="pe-5 text-white" href="https://github.com/IlarioForcherio"><font-awesome-icon icon="fa-brands fa-github" /></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-5">
-                           
-                            <form  data-aos="fade-right"  ref="form" @submit.prevent="sendEmail" class="bw row g-3 text-white p-4">
+                        <!-- form-contacts -->
+                        <div class="col-lg-6">
+                            <form data-aos="fade-right" ref="form" @submit.prevent="sendEmail" class="bw row g-3 text-white p-4">
                                 <div class="col-md-6">
                                     <input v-model="name" type="text" name="user_name" placeholder="Name" class="form-control">
                                 </div>
@@ -34,11 +26,30 @@
                                 <div class="text-white">{{successEmail}}</div>
                             </form>
                         </div>
+                        <!-- contact-me-here -->
+                        <div class="col-lg-6">
+                            <h3 id="contact" class="pt-5 txt text-center">Contact Me <span style="color:orange">Here</span></h3>
+                        </div>
                     </div>
                 </div>
-            <div class="w-80 d-flex justify-content-end  pt-5">
-                <a href="#" class=" text-white"><font-awesome-icon icon="fa-solid fa-circle-arrow-up" /></a>
-            </div>
+                <div class="d-flex w-75 m-auto">
+                    <div class="ps-5 pt-5 d-flex justify-content-center align-items-center">
+                        <a class="pe-5 text-white" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/">
+                            <font-awesome-icon icon="fa-brands fa-linkedin" />
+                        </a>
+                        <a class="pe-5 text-white" href="ilarioforcherio@gmail.com">ilarioforcherio@gmail.com</a>
+                        <a class="pe-5 text-white" href="https://github.com/IlarioForcherio">
+                            <font-awesome-icon icon="fa-brands fa-github" />
+                        </a>
+                    </div>
+                    <div class="w-80 d-flex justify-content-end  pt-5">
+                        <a href="#" class=" text-white">
+                            <font-awesome-icon icon="fa-solid fa-circle-arrow-up" />
+                        </a>
+                    </div>
+    
+                </div>
+    
             </section>
         </footer>
     </div>
@@ -92,31 +103,33 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-input,textarea{
+input,
+textarea {
     //border-color:orange!important;
     background-color: #212529;
 }
 
 footer {
     width: 100%;
-   
     background-color: #212529;
     padding-bottom: 100px;
 }
 
-a{
+a {
     text-decoration: none;
 }
-.fa-github,.fa-linkedin{
+
+.fa-github,
+.fa-linkedin {
     font-size: 1.5rem;
 }
-.fa-circle-arrow-up{
-  font-size: 3rem;
-  border-radius: 50%; 
+
+.fa-circle-arrow-up {
+    font-size: 3rem;
+    border-radius: 50%;
 }
 
-.fa-circle-arrow-up:hover{
+.fa-circle-arrow-up:hover {
     color: orange;
     box-shadow: 2px 2px 2px 1px black;
 }
@@ -133,11 +146,11 @@ a{
     line-height: 4rem;
     letter-spacing: 0rem;
 }
+
 .bw {
     border: 1px solid rgb(107, 106, 106);
     border-radius: 10px;
 }
-
 
 /* media query */
 

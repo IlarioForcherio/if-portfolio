@@ -4,10 +4,6 @@
         <section class="section pt-5 ">
             <div class=" container-fluid m-auto">
                 <div class="row align-items-end w-75 m-auto" >
-                    <!-- text -->
-                    <div data-aos="fade-left"  class="col-lg-6 bw p-5">
-                        <h2 id='portfolio' class="txt  tecnologies">Take a  <span style="color:orange">look</span> at my work</h2>   
-                    </div>
                     <!-- carousel -->
                     <div class="col-sm-12 col-lg-6 m-auto ">
                         <div id="carouselExampleIndicators" class=" carousel slide">
@@ -19,16 +15,16 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <!-- <img src="#" class="d-block w-100" alt=""> -->
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/8PRl3J8KlKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/8PRl3J8KlKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                                 <div class="carousel-item">
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/DiLwQ73z-gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/DiLwQ73z-gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                                 <div class="carousel-item">
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/El67qcPkJU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/El67qcPkJU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                                 <div class="carousel-item">
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/L3eyiwgfdGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/L3eyiwgfdGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -40,6 +36,10 @@
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
+                    </div>
+                                        <!-- text -->
+                    <div data-aos="fade-left"  class="col-lg-6 bw p-5">
+                        <h2 id='portfolio' class="txt  tecnologies">Take a  <span style="color:orange">look</span> at my work</h2>   
                     </div>
   
                 </div>
