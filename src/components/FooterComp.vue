@@ -14,9 +14,6 @@
                                 <div class="col-md-6">
                                     <input v-model='email' type="email" name="user_email" placeholder="Email" class="form-control">
                                 </div>
-                                <div class="col-md-12">
-                                    <input placeholder="Subject" type="text" class="form-control" id="name">
-                                </div>
                                 <div class="mb-3 col-md-12">
                                     <textarea v-model='message' name="message" placeholder="Message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
@@ -25,9 +22,10 @@
                                 </div>
                                 <div class="text-white">{{successEmail}}</div>
                             </form>
+                            
                         </div>
                         <!-- contact-me-here -->
-                        <div class="col-lg-6">
+                        <div data-aos="fade-left"  class="col-lg-6">
                             <h3 id="contact" class="pt-5 txt text-center">Contact Me <span style="color:orange">Here</span></h3>
                         </div>
                     </div>
@@ -37,8 +35,8 @@
                         <a class="pe-5 text-white" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/">
                             <font-awesome-icon icon="fa-brands fa-linkedin" />
                         </a>
-                        <a class="pe-5 text-white" href="ilarioforcherio@gmail.com">ilarioforcherio@gmail.com</a>
-                        <a class="pe-5 text-white" href="https://github.com/IlarioForcherio">
+                        <a class="  pe-5 text-white" href="ilarioforcherio@gmail.com">ilarioforcherio@gmail.com</a>
+                        <a class=" pe-5 text-white" href="https://github.com/IlarioForcherio">
                             <font-awesome-icon icon="fa-brands fa-github" />
                         </a>
                     </div>

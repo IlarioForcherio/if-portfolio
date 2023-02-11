@@ -11,7 +11,7 @@
                             nuove sfide. Il Master Boolean me ne ha dato la possibilita' e ha trasformato in poco tempo una nuova scoperta in una grande passione. Ho imparato a mettermi in gioco e voglio continuare a farlo, quotidianamente e con entusiasmo."</p>
                     </div>
                     <!-- about -->
-                    <div class="col-lg-6 d-flex align-items-center">
+                    <div data-aos="fade-left"  class="col-lg-6 d-flex align-items-center">
                         <h2 id="about" class="txt text-center">About <span style="color:orange">myself</span></h2>
                         <!-- <div class="d-flex justify-content-center">
                                 <img class="pt-3  img-fluid" src="../assets/img/io.jpeg" alt="">

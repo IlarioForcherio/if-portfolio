@@ -5,7 +5,7 @@
             <div class=" container-fluid m-auto">
                 <div class="row align-items-end w-75 m-auto" >
                     <!-- carousel -->
-                    <div class="col-sm-12 col-lg-6 m-auto ">
+                    <div data-aos="fade-right"  class="col-sm-12 col-lg-6 m-auto ">
                         <div id="carouselExampleIndicators" class=" carousel slide">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

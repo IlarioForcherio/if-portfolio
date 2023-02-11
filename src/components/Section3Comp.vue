@@ -6,7 +6,7 @@
     
                 <div class="row m-auto w-75 m-auto">
                     <!-- stack -->
-                    <div class=" col-lg-6 p-5">
+                    <div data-aos="fade-right"  class=" col-lg-6 p-5">
                         <h2 class="txt text-center">This is<span style="color:orange"> my</span> stack</h2>
                     </div>
                     <!-- carousel -->
@@ -48,18 +48,15 @@
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
                             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
-    
-    
-    
                 </div>
             </div>
         </section>
