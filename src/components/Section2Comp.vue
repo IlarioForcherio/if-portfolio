@@ -5,8 +5,8 @@
             <div class=" container-fluid m-auto">
                 <div class="row align-items-end w-75 m-auto" >
                                                             <!-- text -->
-                    <div data-aos="fade-left"  class="col-lg-6  p-5">
-                        <h2 id='portfolio' class="txt  ">Take a  <span style="color:orange">look</span> at my work</h2>   
+                    <div data-aos="fade-left"  class="col-lg-6">
+                        <h2 id='portfolio' class="txt">Take a  <span style="color:orange">look</span> at my work</h2>   
                     </div>
                     <!-- carousel -->
                     <div data-aos="fade-right"  class="bw p-3 col-sm-12 col-lg-6 m-auto ">
@@ -94,12 +94,11 @@ export default {
 <style lang="scss" scoped>
 .txt {
     color: white;
-    font-size: 6vmax;
+    font-size: 5rem;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 5rem;
-    
-    //letter-spacing: -0.5rem;
+    line-height: 4rem;
+    padding-right: 100px;
 }
 .bw {
     border: 1px solid rgb(107, 106, 106);
@@ -109,5 +108,31 @@ export default {
     width: 80%;
     margin: auto;
 }
+
+//-------------------------------MEDIA-QUERY--------------------------------//
+
+
+@media  screen and (min-width: 360px) and (max-width: 768px) {
+	.txt{
+    color: red;
+    padding-right:0px;
+    text-align: center;
+    line-height: 4.5rem;
+  }
+}
+
+
+// @media  screen and (min-width: 1279px)  {
+//   .txt {
+//     color: white;
+//     font-size: 5rem;
+//     font-family: Helvetica Neue;
+//     font-weight: bold;
+//     line-height: 5rem;
+//     padding-right: 100px;
+//     text-align: start;
+// }
+// }
+
 </style>
 

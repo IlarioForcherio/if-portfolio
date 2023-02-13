@@ -7,7 +7,7 @@
                     <div class="row w-75 m-auto ">
                                                <!-- contact-me-here -->
                         <div data-aos="fade-left"  class="col-lg-6">
-                            <h3 id="contact" class="pt-5 pb-5 txt text-center">Contact Me <span style="color:orange">Here</span></h3>
+                            <h3 id="contact" class=" txt">Contact Me <span style="color:orange">Here</span></h3>
                         </div>
                         <!-- form-contacts -->
                         <div class="col-lg-6">
@@ -142,10 +142,12 @@ a {
 
 .txt {
     color: white;
-    font-size: 5.5vmax;
+    font-size: 5rem;
     font-weight: bold;
-    line-height: 5.5rem;
+    line-height: 5rem;
     letter-spacing: 0rem;
+   
+    padding-top: 40px;
 }
 
 .bw {
@@ -155,10 +157,13 @@ a {
 
 //---------------------------------------------MEDIA-QUERY---------------------------------------------------------//
 
-// @media screen and (min-width: 375px) {
-//   .txt{
-//     text-align: center;
-//     font-size: 9.3vw;
-//   }
-// }
+@media screen and (max-width: 375px) {
+  .txt{
+    text-align: center;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    
+  }
+}
 </style>

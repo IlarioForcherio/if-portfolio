@@ -5,8 +5,8 @@
             <div class="container-fluid ">
                 <div class="row w-75 m-auto ">
                                         <!-- about -->
-                    <div data-aos="fade-left"  class=" col-lg-6 d-flex align-items-center">
-                        <h2 id="about" class="txt text-center">About <span style="color:orange">myself</span></h2>
+                    <div data-aos="fade-left"  class=" col-lg-6  ">
+                        <h2 id="about" class="txt ">About <span style="color:orange">myself</span></h2>
 
                     </div>
     
@@ -57,18 +57,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.w-80 {
-    width: 80%;
-    margin: auto;
-}
+
 
 .txt {
     color: white;
-    font-size: 6vmax;
+    font-size: 5rem;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 5rem;
+    line-height: 4rem;
     letter-spacing: 0rem;
+    padding-top: 80px;
+    //text-align: center;
 }
 
 p{
@@ -84,10 +83,16 @@ img {
     border-radius: 10px;
 }
 
-//media query
-@media screen and (max-width: 370px) {
-    .txt {
-        font-size: 15vw;
-    }
+//-----------------------------------MEDIA-QUERY-----------------------------------//
+
+@media  screen and (max-width: 370px)  {
+  .txt{
+   
+    padding-right:0px;
+    text-align: center;
+    line-height: 4.5rem;
+    padding-bottom: 20px;
+    padding-top: 0px;
+  }
 }
 </style>

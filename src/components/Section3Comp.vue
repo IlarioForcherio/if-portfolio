@@ -1,13 +1,13 @@
 <template>
     <div>
         <!-- terza-sezione -->
-        <section class="section">
-            <div class="container-fluid m-auto pt-5 ">
+        <section class="section pt-5">
+            <div class="container-fluid m-auto ">
     
                 <div class="row m-auto w-75 m-auto">
                     <!-- stack -->
-                    <div data-aos="fade-left" class="col-sm-12 col-lg-6 p-5">
-                        <h2 class="txt text-center">This is<span style="color:orange"> my</span> stack</h2>
+                    <div data-aos="fade-left" class="col-sm-12 col-lg-6 ">
+                        <h2 class="txt">This is<span style="color:orange"> my</span> stack</h2>
                     </div>
                     <!-- carousel -->
                     <div data-aos="fade-right" class="col-sm-12 col-lg-6 bw">
@@ -90,7 +90,7 @@ export default {
         }
     },
     mounted() {
-        //this.AOS.init();
+       
 
     },
     methods: {
@@ -110,12 +110,14 @@ export default {
 
 .txt {
     color: white;
-    font-size: 6vmax;
+    font-size: 5rem;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 5rem;
+    line-height: 4rem;
     letter-spacing: 0rem;
-    text-align: end;
+    padding-right: 100px;
+    padding-top: 50px;
+    
 }
 
 .bw {
@@ -123,9 +125,7 @@ export default {
     border-radius: 10px;
 }
 
-/* .cards{
-   
-} */
+
 
 .cards a {
     display: inline;
@@ -140,12 +140,15 @@ img {
     padding: 90px;
 }
 
-/* media query */
+//---------------------------------------MEDIA-QUERY--------------------------------//
 
-// @media screen and (min-width: 375px) {
-//   .txt{
-//     text-align: center;
-//     font-size: 10.8vw;
-//   }
-// }
+@media  screen and (max-width: 370px)  {
+  .txt{
+    padding-right:0px;
+    text-align: center;
+    line-height: 4.5rem;
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+}
 </style>

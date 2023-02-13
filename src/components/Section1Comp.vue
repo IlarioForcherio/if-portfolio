@@ -97,7 +97,7 @@ export default {
 
 .txt {
 
-    font-size: 9vmax;
+    font-size: 9.5rem;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
@@ -117,7 +117,7 @@ export default {
     letter-spacing: 0.4rem;
     padding-top: 20px;
     color: rgb(255, 165, 0);
-    font-size: 3vmax;
+    font-size: 3rem;
     font-family:'Helvetica Neue';
     font-weight: bolder;
     //overflow-wrap: normal;
@@ -128,8 +128,8 @@ export default {
 
     font-family: 'Helvetica Neue';
     font-weight: bolder;
-    line-height: 2.5rem;
-    font-size: 2.5rem; //inline-size: 300px;
+    line-height: 4rem;
+    font-size: 4rem; //inline-size: 300px;
     //overflow-wrap: break-word;
 }
 
@@ -155,15 +155,23 @@ export default {
     }
 }
 
-//media query
+//----------------------------------------------MEDIA-QUERY------------------------------------------------//
 
-// @media screen and (min-width: 1700px) {
-//   .txt{
-//    color:red;
-//     font-size: 1vmax;
-//     line-height: 0rem;
-//   }
-// }
+@media screen and (min-width: 2140px) {
+  .txt{
+   
+    font-size: 15rem;
+    line-height: 13rem;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .txt{
+   
+    font-size: 14rem;
+    line-height: 12rem;
+  }
+}
 
 // @media screen and (min-width: 1500px) {
 //   .txt{
@@ -192,10 +200,7 @@ export default {
 //   }
 // }
 
-//--------------------------scrollanimation--------------------------------//
-// .wd{
-//     //font-family: 'Open Sans', sans-serif;
-// }
+
 </style>
 
 
