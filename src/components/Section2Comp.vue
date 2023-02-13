@@ -9,7 +9,7 @@
                         <h2 id='portfolio' class="txt">Take a  <span style="color:orange">look</span> at my work</h2>   
                     </div>
                     <!-- carousel -->
-                    <div data-aos="fade-right"  class="bw p-3 col-sm-12 col-lg-6 m-auto ">
+                    <div data-aos="fade-right"  class="bw  col-sm-12 col-lg-6 m-auto ">
                         <div id="carouselExampleIndicators" class=" carousel slide">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -114,7 +114,7 @@ export default {
 
 @media  screen and (min-width: 360px) and (max-width: 768px) {
 	.txt{
-    color: red;
+   
     padding-right:0px;
     text-align: center;
     line-height: 4.5rem;
