@@ -14,7 +14,7 @@
                         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="img-fluid " src="../assets/img/html-5.png" alt="">
+                                       <img class="img-fluid " src="../assets/img/html-5.png" alt="">  
                                 </div>
                                 <div class="carousel-item">
                                     <img class="img-fluid" src="../assets/img/css-3.png" alt="">
@@ -131,6 +131,8 @@ export default {
     display: inline;
     border: 1px solid black;
 }
+
+
 
 img {
     /* border: 1px solid black; */

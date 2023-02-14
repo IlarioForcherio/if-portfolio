@@ -205,12 +205,6 @@ export default {
 
 
 
-//  https://animejs.com/
-
-//  https://animejs.com/
-
-// https://greensock.com/gsap/
-
 
 
 
