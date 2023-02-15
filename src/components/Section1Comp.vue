@@ -5,7 +5,7 @@
             <section class="section">
                 <!-- prima-sezione -->
                 <div class="container-fluid">
-                    <div class="row ">
+                    <div class="row w-90">
                         <!-- tessto -->
                         <div class="col-lg-12   load-transition">
                             <div class="row">
@@ -73,8 +73,8 @@ export default {
     padding-top: 100px; //width: 100%; //border-bottom: 1px solid rgb(66, 65, 65);
 }
 
-.w-80 {
-    width: 80%;
+.w-90 {
+    width: 90%;
     margin: auto;
 }
 
@@ -100,7 +100,9 @@ export default {
     animation: fadeIn 3s forwards;
 }
 
-
+.cnt{
+    padding-top: 30px;
+}
 
 .i-f {
 
