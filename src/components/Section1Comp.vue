@@ -88,7 +88,7 @@ export default {
 
 .txt {
     text-align: center;
-    font-size: 10rem;
+    font-size: 11rem;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
