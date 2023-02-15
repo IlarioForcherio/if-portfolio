@@ -135,6 +135,7 @@ form {
 .fa-github,
 .fa-linkedin {
     font-size: 1.5rem;
+    border-radius: 50%;
 }
 .fa-github:hover{
       color: orange;
