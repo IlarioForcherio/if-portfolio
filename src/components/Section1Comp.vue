@@ -5,16 +5,16 @@
             <section class="section">
                 <!-- prima-sezione -->
                 <div class="container-fluid">
-                    <div class="row   ">
+                    <div class="row ">
                         <!-- tessto -->
-                        <div class="col-lg-12   load-transition  p-5">
+                        <div class="col-lg-12   load-transition">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <h2 class=" txt">Hi, nice to meet you, my name is</h2>
                                 </div>
                             </div>
 
-                            <div class="row if-cnt">
+                            <div class="row cnt align-items-center">
                                 <div class=" col-lg-6 text-center">
                                     <h2 class="i-f">Ilario Forcherio</h2>
                                 </div>
@@ -78,17 +78,7 @@ export default {
     margin: auto;
 }
 
-.img img {
-    //padding: 30px;
-    width: 100%;
-    object-fit: contain; // position: relative;
-    // z-index: 0;
-}
 
-.border-section-bottom {
-    width: 72%;
-    border: 1px solid rgb(66, 65, 65);
-}
 
 .bw {
     border: 1px solid rgb(107, 106, 106);
@@ -114,7 +104,7 @@ export default {
 
 .i-f {
 
-    letter-spacing: 0.4rem;
+    
     padding-top: 20px;
     color: rgb(255, 165, 0);
     font-size: 3rem;
@@ -125,7 +115,7 @@ export default {
 }
 
 .w-dev {
-    padding-top: 20px;
+   // padding-top: 20px;
     font-family: 'Helvetica Neue';
     font-weight: bolder;
     line-height: 4rem;
@@ -155,12 +145,35 @@ export default {
 }
 
 //----------------------------------------------MEDIA-QUERY------------------------------------------------//
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+	.txt{
+         letter-spacing: -0.3rem;
+        line-height: 5rem;
+        font-size: 8rem;
+        
+    }
+    .i-f {
+     
+    letter-spacing: 0.4rem;
+    padding-top: 20px;
+    font-size: 4rem;
+    //overflow-wrap: normal;
+    //line-height: 2.5rem;
+}
 
+.w-dev {
+    padding-top: 0px;
+    line-height: 4rem;
+    font-size: 4rem; 
+}
+}
 @media only screen and (min-width: 360px) and (max-width: 768px) {
 	.txt{
+        
          letter-spacing: -0.3rem;
         line-height: 4rem;
         font-size: 5rem;
+       
         
     }
     .i-f {

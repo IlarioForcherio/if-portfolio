@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- terza-sezione -->
-        <section class="section pt-5">
+        <section class="section ">
             <div class="container-fluid m-auto ">
     
                 <div class="row m-auto w-75 m-auto">
@@ -53,11 +53,11 @@
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
+                                      
                                     </button>
                             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
+                                       
                                     </button>
                         </div>
                     </div>
@@ -103,9 +103,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.w-80 {
-    width: 80%;
-    margin: auto;
+.section{
+    padding-top:80px
 }
 
 .txt {
@@ -141,12 +140,27 @@ img {
     border-radius: 10px;
     padding: 90px;
 }
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    display: none;
+}
+
+
 
 //---------------------------------------MEDIA-QUERY--------------------------------//
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+    .txt{
+        text-align:center;
+         padding-right: 0px;
+         padding-top: 0px;
+    }
+}
 
-@media  screen and (min-width: 360px) and (max-width: 768px) {
+@media only  screen and (min-width: 360px) and (max-width: 768px) {
+    .section{
+        padding-top:0px;
+    }
 	.txt{
-   color: red;
+   
    font-size: 2rem;
     padding-right:0px;
     text-align: center;

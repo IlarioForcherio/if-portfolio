@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- quarta-sezione -->
-        <section class="section pt-5">
+        <section class="section">
             <div class="container-fluid ">
                 <div class="row w-75 m-auto ">
                                         <!-- about -->
@@ -57,6 +57,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.section{
+    padding-top:80px;
+}
 
 
 .txt {
@@ -84,10 +87,19 @@ img {
 }
 
 //-----------------------------------MEDIA-QUERY-----------------------------------//
-
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+    .txt{
+        text-align:center;
+         padding-right: 0px;
+         padding-top: 0px;
+    }
+}
 @media  screen and (min-width: 360px) and (max-width: 768px) {
+    .section{
+    padding-top:0px;
+}
 	.txt{
-   color: red;
+   
    font-size: 2rem;
     padding-right:0px;
     text-align: center;

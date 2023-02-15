@@ -2,7 +2,7 @@
 <template>
     <div>
         <footer>
-            <section class="pt-5">
+            <section class="section">
                 <div class="container-fluid">
                     <div class="row w-75 m-auto ">
                         <!-- contact-me-here -->
@@ -36,7 +36,7 @@
                         <div class="d-flex w-75 m-auto">
                             <!-- icons-email -->
     
-                            <div data-aos="fade-right" class="ps-5 pt-5 d-flex justify-content-center align-items-center">
+                            <div data-aos="fade-right" class=" d-flex justify-content-center align-items-center">
                                 <a class="pe-5 text-white" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/">
                                     <font-awesome-icon icon="fa-brands fa-linkedin" />
                                 </a>
@@ -45,14 +45,15 @@
                                     <font-awesome-icon icon="fa-brands fa-github" />
                                 </a>
                             </div>
-                            <!-- arrow-up -->
-                            <div data-aos="fade-up" class="w-80 d-flex justify-content-end  pt-5">
-                                <a href="#" class=" text-white">
-                                    <font-awesome-icon icon="fa-solid fa-circle-arrow-up" />
-                                </a>
-                            </div>
+    
                         </div>
                     </div>
+                </div>
+                <!-- arrow-up -->
+                <div data-aos="fade-up" class="w-80  d-flex justify-content-end ">
+                    <a href="#" class=" text-white">
+                        <font-awesome-icon icon="fa-solid fa-circle-arrow-up" />
+                    </a>
                 </div>
     
     
@@ -82,7 +83,7 @@ export default {
         }
     },
     mounted() {
-        //this.sendEmail();
+
 
     },
     methods: {
@@ -109,6 +110,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.section {
+    padding-top: 80px;
+}
+
 input,
 textarea {
     //border-color:orange!important;
@@ -123,6 +128,10 @@ footer {
 
 a {
     text-decoration: none;
+}
+
+form {
+    margin-top: 0px;
 }
 
 .fa-github,
@@ -160,13 +169,24 @@ a {
 }
 
 //---------------------------------------------MEDIA-QUERY---------------------------------------------------------//
-@media  screen and (min-width: 360px) and (max-width: 768px) {
-	.txt{
-   color: red;
-   font-size: 2rem;
-    padding-right:0px;
-    text-align: center;
-    line-height: 2rem;
-  }
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .txt {
+        text-align: center;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .section {
+        padding-top: 0px;
+    }
+    .txt {
+        
+        font-size: 2rem;
+        padding-right: 0px;
+        text-align: center;
+        line-height: 2rem;
+    }
 }
 </style>
