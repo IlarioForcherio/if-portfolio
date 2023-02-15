@@ -136,6 +136,15 @@ form {
 .fa-linkedin {
     font-size: 1.5rem;
 }
+.fa-github:hover{
+      color: orange;
+    box-shadow: 2px 2px 2px 1px black;
+}
+.fa-linkedin:hover{
+      color: orange;
+    box-shadow: 2px 2px 2px 1px black;
+}
+
 .arrowCnt{
     display: flex;
     justify-content: end;
