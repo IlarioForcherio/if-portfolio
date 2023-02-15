@@ -5,12 +5,12 @@
             <section class="section">
                 <!-- prima-sezione -->
                 <div class="container-fluid">
-                    <div class="row ">
+                    <div class="row w-90">
                         <!-- tessto -->
                         <div class="col-lg-12   load-transition">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h2 class=" txt">Hi, nice to meet you my name is</h2>
+                                    <h2 class=" txt">Hi, nice to meet you, my name is</h2>
                                 </div>
                             </div>
 
