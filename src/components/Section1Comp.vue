@@ -5,12 +5,12 @@
             <section class="section">
                 <!-- prima-sezione -->
                 <div class="container-fluid">
-                    <div class="row w-90">
+                    <div class="row ">
                         <!-- tessto -->
                         <div class="col-lg-12   load-transition">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h2 class=" txt">Hi, nice to meet you, i’m</h2>
+                                    <h2 class=" txt">Hi, nice to meet you, my name is</h2>
                                 </div>
                             </div>
 
@@ -88,11 +88,11 @@ export default {
 
 .txt {
     text-align: center;
-    font-size: 11rem;
+    font-size: 15rem;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 9.8rem;
+    line-height: 11rem;
     letter-spacing: -0.8rem;
 }
 
@@ -126,7 +126,7 @@ export default {
 }
 
 
-//--------------------------scrollanimation--------------------------------//
+//--------------------------animation--------------------------------//
 .op-0 {
     opacity: 0;
 }
@@ -148,28 +148,7 @@ export default {
 }
 
 //----------------------------------------------MEDIA-QUERY------------------------------------------------//
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
-	.txt{
-         letter-spacing: -0.3rem;
-        line-height: 5rem;
-        font-size: 8rem;
-        
-    }
-    .i-f {
-     
-    letter-spacing: 0.4rem;
-    padding-top: 20px;
-    font-size: 4rem;
-    //overflow-wrap: normal;
-    //line-height: 2.5rem;
-}
 
-.w-dev {
-    padding-top: 0px;
-    line-height: 4rem;
-    font-size: 4rem; 
-}
-}
 @media only screen and (min-width: 360px) and (max-width: 768px) {
 	.txt{
         
@@ -193,6 +172,55 @@ export default {
     font-size: 2rem; 
 }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+	.txt{
+         letter-spacing: -0.3rem;
+        line-height: 5rem;
+        font-size: 8rem;
+        
+    }
+    .i-f {
+     
+    letter-spacing: 0.4rem;
+    padding-top: 20px;
+    font-size: 4rem;
+    //overflow-wrap: normal;
+    //line-height: 2.5rem;
+}
+
+.w-dev {
+    padding-top: 0px;
+    line-height: 4rem;
+    font-size: 4rem; 
+}
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1800px) {
+	.txt{
+        
+         letter-spacing: -0.3rem;
+        line-height: 13rem;
+        font-size: 18rem;
+         letter-spacing: -0.7rem;
+       
+        
+    }
+    .i-f {
+    letter-spacing: 0.4rem;
+    padding-top: 10px;
+    font-size: 5rem;
+    //overflow-wrap: normal;
+    //line-height: 2.5rem;
+}
+
+.w-dev {
+    padding-top: 0px;
+    line-height: 4rem;
+    font-size: 5rem; 
+}
+}
+
 
 
 </style>
