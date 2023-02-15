@@ -5,12 +5,12 @@
             <section class="section">
                 <!-- prima-sezione -->
                 <div class="container-fluid">
-                    <div class="row   w-75 m-auto">
+                    <div class="row   ">
                         <!-- tessto -->
-                        <div class="col-lg-12 bw vh load-transition text-center p-5">
+                        <div class="col-lg-12   load-transition  p-5">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h2 class=" txt">Hi, nice to meet you my name is</h2>
+                                    <h2 class=" txt">Hi, nice to meet you, my name is</h2>
                                 </div>
                             </div>
 
@@ -19,7 +19,7 @@
                                     <h2 class="i-f">Ilario Forcherio</h2>
                                 </div>
                                 <div class="col-lg-6 text-center">
-                                    <h2 class="w-dev pt-3">Web Developer</h2>
+                                    <h2 class="w-dev">Web Developer</h2>
                                 </div>
                             </div>
                         </div>
@@ -96,12 +96,12 @@ export default {
 }
 
 .txt {
-
-    font-size: 9.5rem;
+    text-align: center;
+    font-size: 12rem;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 8rem;
+    line-height: 9.8rem;
     letter-spacing: -0.5rem;
 }
 
@@ -125,12 +125,11 @@ export default {
 }
 
 .w-dev {
-
+    padding-top: 20px;
     font-family: 'Helvetica Neue';
     font-weight: bolder;
     line-height: 4rem;
-    font-size: 4rem; //inline-size: 300px;
-    //overflow-wrap: break-word;
+    font-size: 4rem; 
 }
 
 
@@ -157,48 +156,27 @@ export default {
 
 //----------------------------------------------MEDIA-QUERY------------------------------------------------//
 
-@media screen and (min-width: 2140px) {
-  .txt{
-   
-    font-size: 15rem;
-    line-height: 13rem;
-  }
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+	.txt{
+         letter-spacing: -0.3rem;
+        line-height: 4rem;
+        font-size: 5rem;
+        
+    }
+    .i-f {
+    letter-spacing: 0.4rem;
+    padding-top: 10px;
+    font-size: 2rem;
+    //overflow-wrap: normal;
+    //line-height: 2.5rem;
 }
 
-@media screen and (min-width: 1700px) {
-  .txt{
-   
-    font-size: 14rem;
-    line-height: 12rem;
-  }
+.w-dev {
+    padding-top: 0px;
+    line-height: 4rem;
+    font-size: 2rem; 
 }
-
-// @media screen and (min-width: 1500px) {
-//   .txt{
-
-//     font-size: 14vmax;
-//     line-height: 10rem;
-//   }
-// }
-
-// @media screen and (min-width: 1275px) {
-//   .txt{
-
-//     font-size: 11vmax;
-//     line-height: 7.5rem;
-//   }
-// }
-
-
-
-// @media  screen and (max-width: 354px)  {
-//   .txt{
-    
-//     line-height: 5rem;
-//     padding-top: 20px;
-//    font-size: 7vmax;
-//   }
-// }
+}
 
 
 </style>

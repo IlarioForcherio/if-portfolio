@@ -5,8 +5,8 @@
             <section class="pt-5">
                 <div class="container-fluid">
                     <div class="row w-75 m-auto ">
-                                               <!-- contact-me-here -->
-                        <div data-aos="fade-left"  class="col-lg-6">
+                        <!-- contact-me-here -->
+                        <div data-aos="fade-left" class="col-lg-6">
                             <h3 id="contact" class=" txt">Contact Me <span style="color:orange">Here</span></h3>
                         </div>
                         <!-- form-contacts -->
@@ -26,31 +26,35 @@
                                 </div>
                                 <div class="text-white">{{successEmail}}</div>
                             </form>
-                            
-                        </div>
- 
-                    </div>
-                </div>
-                <div class="d-flex w-75 m-auto">
-                    <!-- icons-email -->
-                    
-                    <div data-aos="fade-right"  class="ps-5 pt-5 d-flex justify-content-center align-items-center">
-                        <a class="pe-5 text-white" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/">
-                            <font-awesome-icon icon="fa-brands fa-linkedin" />
-                        </a>
-                        <a class="  pe-5 text-white" href="ilarioforcherio@gmail.com">ilarioforcherio@gmail.com</a>
-                        <a class=" pe-5 text-white" href="https://github.com/IlarioForcherio">
-                            <font-awesome-icon icon="fa-brands fa-github" />
-                        </a>
-                    </div>
-                    <!-- arrow-up -->
-                    <div data-aos="fade-up" class="w-80 d-flex justify-content-end  pt-5">
-                        <a href="#" class=" text-white">
-                            <font-awesome-icon icon="fa-solid fa-circle-arrow-up" />
-                        </a>
-                    </div>
     
+                        </div>
+    
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="d-flex w-75 m-auto">
+                            <!-- icons-email -->
+    
+                            <div data-aos="fade-right" class="ps-5 pt-5 d-flex justify-content-center align-items-center">
+                                <a class="pe-5 text-white" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/">
+                                    <font-awesome-icon icon="fa-brands fa-linkedin" />
+                                </a>
+                                <a class="  pe-5 text-white" href="ilarioforcherio@gmail.com">ilarioforcherio@gmail.com</a>
+                                <a class=" pe-5 text-white" href="https://github.com/IlarioForcherio">
+                                    <font-awesome-icon icon="fa-brands fa-github" />
+                                </a>
+                            </div>
+                            <!-- arrow-up -->
+                            <div data-aos="fade-up" class="w-80 d-flex justify-content-end  pt-5">
+                                <a href="#" class=" text-white">
+                                    <font-awesome-icon icon="fa-solid fa-circle-arrow-up" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
     
             </section>
         </footer>
@@ -147,7 +151,6 @@ a {
     font-weight: bold;
     line-height: 5rem;
     letter-spacing: 0rem;
-   
     padding-top: 40px;
 }
 
@@ -157,14 +160,13 @@ a {
 }
 
 //---------------------------------------------MEDIA-QUERY---------------------------------------------------------//
-
-@media screen and (max-width: 375px) {
-  .txt{
+@media  screen and (min-width: 360px) and (max-width: 768px) {
+	.txt{
+   color: red;
+   font-size: 2rem;
+    padding-right:0px;
     text-align: center;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 40px;
-    
+    line-height: 2rem;
   }
 }
 </style>

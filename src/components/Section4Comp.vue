@@ -85,14 +85,13 @@ img {
 
 //-----------------------------------MEDIA-QUERY-----------------------------------//
 
-@media  screen and (max-width: 370px)  {
-  .txt{
-   
+@media  screen and (min-width: 360px) and (max-width: 768px) {
+	.txt{
+   color: red;
+   font-size: 2rem;
     padding-right:0px;
     text-align: center;
-    line-height: 4.5rem;
-    padding-bottom: 20px;
-    padding-top: 0px;
+    line-height: 2rem;
   }
 }
 </style>

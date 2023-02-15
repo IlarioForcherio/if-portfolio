@@ -114,10 +114,11 @@ export default {
 
 @media  screen and (min-width: 360px) and (max-width: 768px) {
 	.txt{
-   
+   color: red;
+   font-size: 2rem;
     padding-right:0px;
     text-align: center;
-    line-height: 4.5rem;
+    line-height: 2rem;
   }
 }
 
