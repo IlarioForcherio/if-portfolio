@@ -10,7 +10,7 @@
                         <div class="col-lg-12   load-transition">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h2 class=" txt">Hi, nice to meet you, my name is</h2>
+                                    <h2 class=" txt">Hi, nice to meet you, i’m</h2>
                                 </div>
                             </div>
 
@@ -88,7 +88,7 @@ export default {
 
 .txt {
     text-align: center;
-    font-size: 13rem;
+    font-size: 10rem;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;

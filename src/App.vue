@@ -56,6 +56,7 @@ export default {
       width: 100%;
       font-family: Helvetica Neue;
       //font-weight: bold;
+  
    
 }
 </style>
