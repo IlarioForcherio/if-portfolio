@@ -92,7 +92,7 @@ export default {
     font-family: Helvetica Neue;
     font-weight: bold;
     line-height: 9.8rem;
-    //letter-spacing: -0.1rem;
+    letter-spacing: -0.8rem;
 }
 
 .load-transition {
