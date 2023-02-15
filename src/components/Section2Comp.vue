@@ -114,12 +114,7 @@ export default {
 }
 
 //-------------------------------MEDIA-QUERY--------------------------------//
-@media only screen and (min-width: 768px) and (max-width: 1000px){
-    .txt{
-        text-align:center;
-         padding-right: 0px;
-    }
-}
+
 
 @media  screen and (min-width: 360px) and (max-width: 768px) {
     .section{
@@ -134,18 +129,21 @@ export default {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+    .txt{
+        text-align:center;
+         padding-right: 0px;
+    }
+}
+@media only screen and (min-width: 1280px) and (max-width: 2000px){
+    .txt{
+        text-align:center;
+         padding-right: 0px;
+    }
+}
 
-// @media  screen and (min-width: 1279px)  {
-//   .txt {
-//     color: white;
-//     font-size: 5rem;
-//     font-family: Helvetica Neue;
-//     font-weight: bold;
-//     line-height: 5rem;
-//     padding-right: 100px;
-//     text-align: start;
-// }
-// }
+
+
 
 </style>
 
