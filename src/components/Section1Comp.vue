@@ -203,7 +203,7 @@ export default {
 	.txt{
         
          letter-spacing: -0.3rem;
-        line-height: 13.5rem;
+        line-height: 16.5rem;
         font-size: 18rem;
          letter-spacing: -1rem;
        
