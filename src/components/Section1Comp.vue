@@ -148,7 +148,73 @@ export default {
 }
 
 //----------------------------------------------MEDIA-QUERY------------------------------------------------//
+@media only screen and (min-width: 2000px) and (max-width: 2500px) {
+	.txt{
+        
+         letter-spacing: -0.3rem;
+        line-height: 18rem;
+        font-size: 20rem;
+         letter-spacing: -1rem; 
+    }
+        .i-f {
+    letter-spacing: 0.4rem;
+    font-size: 6rem;
+    }
+    .w-dev {
+    padding-top: 0px;
+    line-height: 4rem;
+    font-size: 7rem; 
+    }
+    
+}
 
+@media only screen and (min-width: 1300px) and (max-width: 2000px) {
+	.txt{
+        color:red;
+         letter-spacing: -0.3rem;
+        line-height: 16.5rem;
+        font-size: 18rem;
+         letter-spacing: -1rem;
+       
+        
+    }
+    .i-f {
+    letter-spacing: 0.4rem;
+    padding-top: 10px;
+    font-size: 5rem;
+    //overflow-wrap: normal;
+    //line-height: 2.5rem;
+    }
+
+.w-dev {
+    padding-top: 0px;
+    line-height: 4rem;
+    font-size: 5rem; 
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+	.txt{
+         letter-spacing: -0.3rem;
+        line-height: 5rem;
+        font-size: 8rem;
+        
+    }
+    .i-f {
+     
+    letter-spacing: 0.4rem;
+    padding-top: 20px;
+    font-size: 4rem;
+    //overflow-wrap: normal;
+    //line-height: 2.5rem;
+}
+
+.w-dev {
+    padding-top: 0px;
+    line-height: 4rem;
+    font-size: 4rem; 
+}
+}
 @media only screen and (min-width: 360px) and (max-width: 768px) {
 	.txt{
         
@@ -176,72 +242,10 @@ export default {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
-	.txt{
-         letter-spacing: -0.3rem;
-        line-height: 5rem;
-        font-size: 8rem;
-        
-    }
-    .i-f {
-     
-    letter-spacing: 0.4rem;
-    padding-top: 20px;
-    font-size: 4rem;
-    //overflow-wrap: normal;
-    //line-height: 2.5rem;
-}
 
-.w-dev {
-    padding-top: 0px;
-    line-height: 4rem;
-    font-size: 4rem; 
-}
-}
 
-@media only screen and (min-width: 1300px) and (max-width: 2000px) {
-	.txt{
-        
-         letter-spacing: -0.3rem;
-        line-height: 16.5rem;
-        font-size: 18rem;
-         letter-spacing: -1rem;
-       
-        
-    }
-    .i-f {
-    letter-spacing: 0.4rem;
-    padding-top: 10px;
-    font-size: 5rem;
-    //overflow-wrap: normal;
-    //line-height: 2.5rem;
-    }
 
-.w-dev {
-    padding-top: 0px;
-    line-height: 4rem;
-    font-size: 5rem; 
-}
-}
-@media only screen and (min-width: 2000px) and (max-width: 2500px) {
-	.txt{
-        
-         letter-spacing: -0.3rem;
-        line-height: 18rem;
-        font-size: 20rem;
-         letter-spacing: -1rem; 
-    }
-        .i-f {
-    letter-spacing: 0.4rem;
-    font-size: 6rem;
-    }
-    .w-dev {
-    padding-top: 0px;
-    line-height: 4rem;
-    font-size: 7rem; 
-    }
-    
-}
+
 
 
 
