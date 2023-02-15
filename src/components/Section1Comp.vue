@@ -196,13 +196,13 @@ export default {
 }
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1800px) {
+@media only screen and (min-width: 1280px) and (max-width: 2000px) {
 	.txt{
         
          letter-spacing: -0.3rem;
-        line-height: 13rem;
+        line-height: 13.5rem;
         font-size: 18rem;
-         letter-spacing: -0.7rem;
+         letter-spacing: -1rem;
        
         
     }
