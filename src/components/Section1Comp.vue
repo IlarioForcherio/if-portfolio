@@ -110,7 +110,7 @@ export default {
     
     padding-top: 20px;
     color: rgb(255, 165, 0);
-    font-size: 3rem;
+    font-size: 4rem;
     font-family:'Helvetica Neue';
     font-weight: bolder;
     //overflow-wrap: normal;
