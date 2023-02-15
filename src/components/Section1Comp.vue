@@ -154,7 +154,7 @@ export default {
         
          letter-spacing: -0.3rem;
         line-height: 4.8rem;
-        font-size: 6rem;
+        font-size: 5rem;
        
         
     }
