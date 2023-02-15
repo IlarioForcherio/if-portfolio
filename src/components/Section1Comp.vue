@@ -114,7 +114,7 @@ export default {
     font-family:'Helvetica Neue';
     font-weight: bolder;
     //overflow-wrap: normal;
-    line-height: 3rem;
+    line-height: 4rem;
 }
 
 .w-dev {
@@ -122,7 +122,7 @@ export default {
     font-family: 'Helvetica Neue';
     font-weight: bolder;
     line-height: 4rem;
-    font-size: 4rem; 
+    font-size: 5rem; 
 }
 
 
