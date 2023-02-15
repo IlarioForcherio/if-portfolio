@@ -102,6 +102,7 @@ img {
    
    font-size: 2rem;
     padding-right:0px;
+    padding-top: 20px;
     text-align: center;
     line-height: 2rem;
   }

@@ -138,7 +138,7 @@ img {
     width: 100%;
     object-fit: contain;
     border-radius: 10px;
-    padding: 90px;
+    padding: 0px;
 }
 .carousel-control-prev-icon,.carousel-control-next-icon{
     display: none;
@@ -162,6 +162,7 @@ img {
 	.txt{
    
    font-size: 2rem;
+   padding-top:20px ;
     padding-right:0px;
     text-align: center;
     line-height: 2rem;

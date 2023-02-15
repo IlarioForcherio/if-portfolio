@@ -31,12 +31,11 @@
     
                     </div>
                 </div>
-                <div class="row">
+                <!-- icons-email -->
+                <div class="row pt-5">
                     <div class="col-sm-12">
-                        <div class="d-flex w-75 m-auto">
-                            <!-- icons-email -->
-    
-                            <div data-aos="fade-right" class=" d-flex justify-content-center align-items-center">
+                        <div class="w-75 m-auto ">
+                            <div data-aos="fade-right" class=" ">
                                 <a class="pe-5 text-white" href="https://www.linkedin.com/in/ilario-forcherio-b413a340/">
                                     <font-awesome-icon icon="fa-brands fa-linkedin" />
                                 </a>
@@ -45,7 +44,6 @@
                                     <font-awesome-icon icon="fa-brands fa-github" />
                                 </a>
                             </div>
-    
                         </div>
                     </div>
                 </div>
@@ -196,6 +194,12 @@ form {
         padding-top: 50px;
     display: flex;
     justify-content: center;
-}
+    }
+    .fa-github{
+    padding-top: 20px;
+    }
+    .fa-linkedin{
+        padding-bottom: 20px;
+    }
 }
 </style>
