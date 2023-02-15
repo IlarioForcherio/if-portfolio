@@ -168,7 +168,7 @@ export default {
     
 }
 
-@media only screen and (min-width: 1300px) and (max-width: 2000px) {
+@media only screen and (min-width: 1279px) and (max-width: 2000px) {
 	.txt{
         color:red;
          letter-spacing: -0.3rem;

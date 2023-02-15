@@ -135,7 +135,7 @@ export default {
          padding-right: 0px;
     }
 }
-@media only screen and (min-width: 1280px) and (max-width: 2000px){
+@media only screen and (min-width: 1300px) and (max-width: 2000px){
     .txt{
         text-align:center;
          padding-right: 0px;
