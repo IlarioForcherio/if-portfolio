@@ -102,7 +102,7 @@ export default {
     font-family: Helvetica Neue;
     font-weight: bold;
     line-height: 4rem;
-    padding-right: 100px;
+    padding-right: 150px;
 }
 .bw {
     border: 1px solid rgb(107, 106, 106);
