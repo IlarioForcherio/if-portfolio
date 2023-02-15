@@ -48,8 +48,8 @@
                     </div>
                 </div>
                 <!-- arrow-up -->
-                <div data-aos="fade-up" class="w-80 arrowCnt">
-                    <a href="#" class=" text-white">
+                <div data-aos="fade-down" class="w-80 arrowCnt">
+                    <a href="#" class="bounce text-white">
                         <font-awesome-icon icon="fa-solid fa-circle-arrow-up" />
                     </a>
                 </div>
@@ -154,6 +154,7 @@ form {
 .fa-circle-arrow-up {
     font-size: 3rem;
     border-radius: 50%;
+    animation: bounce 1.4s infinite;
 }
 
 .fa-circle-arrow-up:hover {
@@ -180,6 +181,25 @@ form {
     border-radius: 10px;
 }
 
+//---------------------------------------------ANIMATION-----------------------------------------------------------//
+
+@keyframes bounce {
+        0% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+  
+  30%{
+    transform: scale(1,0.8) translate(0px, 10px); 
+  }
+
+  75%{
+    transform: scale(1,1.1) translate(0px, -25px); 
+  }
+  
+ 100% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+}
 //---------------------------------------------MEDIA-QUERY---------------------------------------------------------//
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
     .txt {
