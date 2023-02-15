@@ -170,7 +170,7 @@ export default {
 
 @media only screen and (min-width: 1300px) and (max-width: 2000px) {
 	.txt{
-        color:red;
+       
          letter-spacing: -0.3rem;
         line-height: 16.5rem;
         font-size: 18rem;
