@@ -118,7 +118,7 @@ export default {
 }
 
 .w-dev {
-    padding-top: 20px;
+    padding-top: 30px;
     font-family: 'Helvetica Neue';
     font-weight: bolder;
     line-height: 4rem;
