@@ -215,13 +215,32 @@ export default {
     font-size: 5rem;
     //overflow-wrap: normal;
     //line-height: 2.5rem;
-}
+    }
 
 .w-dev {
     padding-top: 0px;
     line-height: 4rem;
     font-size: 5rem; 
 }
+}
+@media only screen and (min-width: 2000px) and (max-width: 2500px) {
+	.txt{
+        
+         letter-spacing: -0.3rem;
+        line-height: 18rem;
+        font-size: 20rem;
+         letter-spacing: -1rem; 
+    }
+        .i-f {
+    letter-spacing: 0.4rem;
+    font-size: 6rem;
+    }
+    .w-dev {
+    padding-top: 0px;
+    line-height: 4rem;
+    font-size: 7rem; 
+    }
+    
 }
 
 
