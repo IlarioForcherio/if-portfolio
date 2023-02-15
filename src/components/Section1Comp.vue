@@ -16,10 +16,10 @@
 
                             <div class="row cnt align-items-center">
                                 <div class=" col-lg-6 text-center">
-                                    <h2 class="i-f">Ilario Forcherio</h2>
+                                    <h2 data-aos="fade-left" class="i-f">Ilario Forcherio</h2>
                                 </div>
                                 <div class="col-lg-6 text-center">
-                                    <h2 class="w-dev">Web Developer</h2>
+                                    <h2 data-aos="fade-right" class="w-dev">Web Developer</h2>
                                 </div>
                             </div>
                         </div>
@@ -31,7 +31,7 @@
 </template>
 
 <script>
-// import ScrollAnimation from '../directives/scrollanimation';
+
 
 export default {
     name: 'MainComp',
@@ -42,7 +42,7 @@ export default {
 
     },
     directives: {
-        // ScrollAnimation
+       
     },
     data() {
         return {
