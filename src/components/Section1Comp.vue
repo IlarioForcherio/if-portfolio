@@ -219,7 +219,7 @@ export default {
 	.txt{
         
          letter-spacing: -0.3rem;
-        line-height: 4.8rem;
+        line-height: 4rem;
         font-size: 5rem;
        
         
