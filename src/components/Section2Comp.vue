@@ -92,6 +92,7 @@ export default {
 
 
 <style lang="scss" scoped>
+
 .section{
     padding-top:80px ;
 }

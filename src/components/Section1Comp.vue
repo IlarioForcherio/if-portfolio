@@ -68,6 +68,7 @@ export default {
 
 <style lang="scss" scoped>
 
+
 .section {
     // padding-bottom: 100px;
     padding-top: 100px; //width: 100%; //border-bottom: 1px solid rgb(66, 65, 65);
@@ -87,7 +88,7 @@ export default {
 
 .txt {
     text-align: center;
-    font-size: 12rem;
+    font-size: 13rem;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
