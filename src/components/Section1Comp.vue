@@ -160,7 +160,7 @@ export default {
     }
     .i-f {
     letter-spacing: 0.4rem;
-    padding-top: 10px;
+    padding-top: 0px;
     font-size: 2rem;
     //overflow-wrap: normal;
    line-height: 2.5rem;
