@@ -102,16 +102,13 @@ export default {
     font-family: Helvetica Neue;
     font-weight: bold;
     line-height: 4rem;
-    padding-right: 100px;
+    padding-right: 80px;
 }
 .bw {
     border: 1px solid rgb(107, 106, 106);
     border-radius: 10px;
 }
-.w-80{
-    width: 80%;
-    margin: auto;
-}
+
 
 //-------------------------------MEDIA-QUERY--------------------------------//
 
