@@ -10,7 +10,7 @@
                         <div class="col-lg-12 bw vh load-transition text-center p-5">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h2 class=" txt">Hi, nice to meet you, my name is</h2>
+                                    <h2 class=" txt">Hi, nice to meet you my name is</h2>
                                 </div>
                             </div>
 
