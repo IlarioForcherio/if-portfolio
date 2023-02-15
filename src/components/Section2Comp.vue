@@ -5,7 +5,7 @@
             <div class=" container-fluid m-auto">
                 <div class="row align-items-end w-75 m-auto" >
                                                             <!-- text -->
-                    <div data-aos="fade-left"  class="col-lg-6 d-flex justify-content-center">
+                    <div data-aos="fade-left"  class="col-lg-6 d-flex justify-content-center slign-items-center">
                         <h2 id='portfolio' class="txt">Take a  <span style="color:orange">look</span> at my work</h2>   
                     </div>
                     <!-- carousel -->
