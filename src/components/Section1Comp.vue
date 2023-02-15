@@ -163,7 +163,7 @@ export default {
     padding-top: 0px;
     font-size: 2rem;
     //overflow-wrap: normal;
-   line-height: 2.5rem;
+   line-height: 2rem;
 }
 
 .w-dev {
