@@ -153,8 +153,8 @@ export default {
 	.txt{
         
          letter-spacing: -0.3rem;
-        line-height: 4rem;
-        font-size: 5rem;
+        line-height: 4.8rem;
+        font-size: 6rem;
        
         
     }
