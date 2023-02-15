@@ -122,7 +122,7 @@ export default {
     font-family: 'Helvetica Neue';
     font-weight: bolder;
     line-height: 4rem;
-    font-size: 5rem; 
+    font-size: 4rem; 
 }
 
 
