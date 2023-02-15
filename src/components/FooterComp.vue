@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <!-- arrow-up -->
-                <div data-aos="fade-up" class="w-80  d-flex justify-content-end ">
+                <div data-aos="fade-up" class="w-80 arrowCnt">
                     <a href="#" class=" text-white">
                         <font-awesome-icon icon="fa-solid fa-circle-arrow-up" />
                     </a>
@@ -138,6 +138,10 @@ form {
 .fa-linkedin {
     font-size: 1.5rem;
 }
+.arrowCnt{
+    display: flex;
+    justify-content: end;
+}
 
 .fa-circle-arrow-up {
     font-size: 3rem;
@@ -188,5 +192,10 @@ form {
         text-align: center;
         line-height: 2rem;
     }
+    .arrowCnt{
+        padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
 }
 </style>
