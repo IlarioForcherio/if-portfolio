@@ -158,19 +158,22 @@ export default {
        
         
     }
+    .cnt{
+    padding-top: 0px;
+    }   
     .i-f {
     letter-spacing: 0.4rem;
     padding-top: 0px;
     font-size: 2rem;
     //overflow-wrap: normal;
    line-height: 2rem;
-}
+    }
 
-.w-dev {
+    .w-dev {
     padding-top: 0px;
     line-height: 4rem;
     font-size: 2rem; 
-}
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
