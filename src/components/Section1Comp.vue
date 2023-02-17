@@ -26,6 +26,10 @@
                     </div>
                 </div>
             </section>
+            <div class="d-flex justify-content-center">
+              <a class="contact"  href="#contact">Contact Me</a>  
+            </div>
+           
         </main>
     </div>
 </template>
@@ -68,16 +72,20 @@ export default {
 
 <style lang="scss" scoped>
 
+a{
+    text-decoration:none;
+}
+
 
 .section {
     // padding-bottom: 100px;
     padding-top: 70px; //width: 100%; //border-bottom: 1px solid rgb(66, 65, 65);
 }
 
-.w-90 {
-    width: 90%;
-    margin: auto;
-}
+// .w-90 {
+//     width: 95%;
+//     margin: auto;
+// }
 
 
 
@@ -88,11 +96,11 @@ export default {
 
 .txt {
     text-align: center;
-    font-size: 13rem;
+    font-size: 10rem;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 11rem;
+    line-height: 8rem;
     letter-spacing: -0.8rem;
 }
 
@@ -125,6 +133,25 @@ export default {
     font-size: 4rem; 
 }
 
+.contact {
+    margin-top:70px;
+    font-size: 1rem;
+    background-color: #212529;
+    border: 1px solid orange;
+    color: orange;
+    padding: 8px 20px;
+    border-radius: 10px;
+    animation: bounce 1.4s infinite;
+   
+    
+}
+
+.contact:hover {
+    color: black;
+    background-color: orange;
+    transition: background-color 0.5s;
+}
+
 
 //--------------------------animation--------------------------------//
 .op-0 {
@@ -145,6 +172,25 @@ export default {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+
+@keyframes bounce {
+        0% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+  
+  30%{
+    transform: scale(1,0.8) translate(0px, 10px); 
+  }
+
+  75%{
+    transform: scale(1,1.1) translate(0px, -25px); 
+  }
+  
+ 100% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
 }
 
 //----------------------------------------------MEDIA-QUERY------------------------------------------------//
@@ -218,7 +264,7 @@ export default {
 @media only screen and (min-width: 360px) and (max-width: 768px) {
 	.txt{
         
-         letter-spacing: -0.3rem;
+        letter-spacing: -0.3rem;
         line-height: 4rem;
         font-size: 5rem;
        
@@ -230,15 +276,21 @@ export default {
     .i-f {
     letter-spacing: 0.4rem;
     padding-top: 0px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     //overflow-wrap: normal;
-   line-height: 2rem;
+    line-height: 2rem;
+    
     }
 
     .w-dev {
     padding-top: 0px;
     line-height: 4rem;
-    font-size: 2rem; 
+    font-size: 1.5rem;
+    
+    }
+    .contact{
+        margin-top:0px;
+        margin-bottom: 30px;
     }
 }
 

@@ -4,13 +4,14 @@
         <section class="section ">
             <div class="container-fluid m-auto ">
     
-                <div class="row m-auto w-75 m-auto">
+                <div class="row">
                     <!-- stack -->
-                    <div data-aos="fade-left" class="col-sm-12 col-lg-6 ">
+                    <div data-aos="fade-left" class="col-sm-12 col-lg-12 ">
                         <h2 class="txt">This is<span style="color:orange"> my</span> stack</h2>
+                        <div class="line"></div>
                     </div>
                     <!-- carousel -->
-                    <div data-aos="fade-right" class="col-sm-12 col-lg-6 bw">
+                    <div data-aos="fade-right" class="col-sm-12 col-lg-6 m-auto">
                         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -64,7 +65,6 @@
                 </div>
             </div>
         </section>
-    
         <div class="d-flex justify-content-center">
             <div class="border-section-bottom"></div>
         </div>
@@ -103,13 +103,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.line{
+    border:1px solid rgb(107, 106, 106);
+    margin-bottom: 100px;
+}
+
 .section{
     padding-top:80px
 }
 
 .txt {
     color: white;
-    font-size: 5rem;
+    font-size: 3rem;
     font-family: Helvetica Neue;
     font-weight: bold;
     line-height: 4rem;
@@ -149,7 +155,7 @@ img {
 //---------------------------------------MEDIA-QUERY--------------------------------//
 @media only screen and (min-width: 768px) and (max-width: 1000px){
     .txt{
-        text-align:center;
+        //text-align:center;
          padding-right: 0px;
          padding-top: 0px;
     }
@@ -164,8 +170,12 @@ img {
    font-size: 2rem;
    padding-top:20px ;
     padding-right:0px;
-    text-align: center;
+    //text-align: center;
     line-height: 2rem;
   }
+   .line{
+   
+    margin-bottom: 50px;
+    }
 }
 </style>

@@ -28,7 +28,7 @@
                         </ul>
                         <form class="d-flex justify-content-center">
                             
-                            <a class="contact "  href="#contact">Contact Me</a>
+                            <!-- <a class="contact"  href="#contact">Contact Me</a> -->
                         </form>
                     </div>
                 </div>

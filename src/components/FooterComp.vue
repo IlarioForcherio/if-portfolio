@@ -4,13 +4,14 @@
         <footer>
             <section class="section">
                 <div class="container-fluid">
-                    <div class="row w-75 m-auto ">
+                    <div class="row">
                         <!-- contact-me-here -->
-                        <div data-aos="fade-left" class="col-lg-6">
+                        <div data-aos="fade-left" class="col-lg-12">
                             <h3 id="contact" class=" txt">Contact Me <span style="color:orange">Here</span></h3>
+                            <div class="line"></div>
                         </div>
                         <!-- form-contacts -->
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 m-auto">
                             <form data-aos="fade-right" ref="form" @submit.prevent="sendEmail" class="bw row g-3 text-white p-4">
                                 <div class="col-md-6">
                                     <input v-model="name" type="text" name="user_name" placeholder="Name" class="form-control">
@@ -108,6 +109,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+
+.line{
+    border:1px solid rgb(107, 106, 106);
+    margin-bottom: 100px;
+}
 .section {
     padding-top: 80px;
 }
@@ -169,11 +176,12 @@ form {
 
 .txt {
     color: white;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 5rem;
     letter-spacing: 0rem;
     padding-top: 40px;
+    text-align: start;
 }
 
 .bw {
@@ -203,7 +211,7 @@ form {
 //---------------------------------------------MEDIA-QUERY---------------------------------------------------------//
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
     .txt {
-        text-align: center;
+       // text-align: center;
         padding-right: 0px;
         padding-top: 0px;
     }
@@ -230,6 +238,10 @@ form {
     }
     .fa-linkedin{
         padding-bottom: 20px;
+    }
+     .line{
+   
+    margin-bottom: 50px;
     }
 }
 </style>

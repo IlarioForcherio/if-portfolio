@@ -3,13 +3,13 @@
         <!-- seconda-sezione -->
         <section class="section">
             <div class=" container-fluid m-auto">
-                <div class="row align-items-end w-75 m-auto" >
-                                                            <!-- text -->
-                    <div data-aos="fade-left"  class="col-lg-6 d-flex justify-content-center slign-items-center">
-                        <h2 id='portfolio' class="txt">Take a  <span style="color:orange">look</span> at my work</h2>   
+                <div class="row align-items-end ">                                    <!-- text -->
+                    <div data-aos="fade-left"  class="col-lg-12">
+                        <h2 id='portfolio' class="txt">Take a  <span style="color:orange">look</span> at my work</h2>
+                        <div class="line"></div>  
                     </div>
                     <!-- carousel -->
-                    <div data-aos="fade-right"  class="bw  col-sm-12 col-lg-6 m-auto ">
+                    <div data-aos="fade-right"  class="  col-sm-12 col-lg-6 m-auto ">
                         <div id="carouselExampleIndicators" class=" carousel slide">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -19,16 +19,16 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <!-- <img src="#" class="d-block w-100" alt=""> -->
-                                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/8PRl3J8KlKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/8PRl3J8KlKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                                 <div class="carousel-item">
-                                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/DiLwQ73z-gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/DiLwQ73z-gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                                 <div class="carousel-item">
-                                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/El67qcPkJU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/El67qcPkJU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                                 <div class="carousel-item">
-                                    <iframe width="100%" height="250" src="https://www.youtube.com/embed/L3eyiwgfdGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/L3eyiwgfdGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -92,17 +92,22 @@ export default {
 
 
 <style lang="scss" scoped>
+.line{
+    border:1px solid rgb(107, 106, 106);
+    margin-bottom: 100px;
+}
 
 .section{
     padding-top:80px ;
 }
 .txt {
     color: white;
-    font-size: 5rem;
+    font-size: 3rem;
     font-family: Helvetica Neue;
     font-weight: bold;
     line-height: 4rem;
     padding-right: 150px;
+    text-align:start;
 }
 .bw {
     border: 1px solid rgb(107, 106, 106);
@@ -119,11 +124,15 @@ export default {
 }
 	.txt{
    
-   font-size: 2rem;
+    font-size: 1.9rem;
     padding-right:0px;
-    text-align: center;
+    //text-align: center;
     line-height: 2rem;
   }
+    .line{
+   
+    margin-bottom: 50px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1000px){
