@@ -2,7 +2,7 @@
     <div>
         <!-- seconda-sezione -->
         <section class="section">
-            <div class=" container m-auto">
+            <div class=" container-fluid w-75 m-auto">
                 <div class="row align-items-end ">                                    <!-- text -->
                     <div class="col-lg-12">
                         <h2 data-aos="fade-left" id='portfolio' class="txt">Take a look at my<span style="color:orange"> work</span></h2>
@@ -124,9 +124,9 @@ export default {
 }
 	.txt{
    
-    font-size: 1.9rem;
+    font-size: 1.4rem;
     padding-right:0px;
-    //text-align: center;
+    text-align: center;
     line-height: 2rem;
   }
     .line{

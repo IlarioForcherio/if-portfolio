@@ -3,7 +3,7 @@
     <div>
         <footer>
             <section class="section">
-                <div class="container">
+                <div class="container-fluid w-75 m-auto">
                     <div class="row">
                         <!-- contact-me-here -->
                         <div class="col-lg-12">
@@ -181,7 +181,7 @@ form {
     line-height: 5rem;
     letter-spacing: 0rem;
     padding-top: 40px;
-    text-align: start;
+    text-align: end;
 }
 
 .bw {
@@ -223,7 +223,7 @@ form {
     }
     .txt {
         
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-right: 0px;
         text-align: center;
         line-height: 2rem;

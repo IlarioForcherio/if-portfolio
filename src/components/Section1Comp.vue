@@ -4,8 +4,8 @@
         <main>
             <section class="section">
                 <!-- prima-sezione -->
-                <div class="container">
-                    <div class="bw row w-90">
+                <div class="container-fluid">
+                    <div class="bw row w-75 m-auto">
                         <!-- tessto -->
                         <div class="col-lg-12   load-transition">
                             <div class="row">
@@ -96,11 +96,11 @@ a{
 
 .txt {
     text-align: center;
-    font-size: 7.5rem;
+    font-size: 6.4rem;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 7rem;
+    line-height: 6rem;
     letter-spacing: -0.3rem;
     padding:40px;
 }
@@ -110,9 +110,9 @@ a{
     animation: fadeIn 3s forwards;
 }
 
-// .cnt{
-//     padding-top: 30px;
-// }
+.cnt{
+    padding-bottom: 30px;
+}
 
 .i-f {
     color: rgb(255, 165, 0);
@@ -120,13 +120,13 @@ a{
     font-family:'Helvetica Neue';
     font-weight: bolder;
     //overflow-wrap: normal;
-    line-height: 4rem;
+    //line-height: 3rem;
 }
 
 .w-dev {
     font-family: 'Helvetica Neue';
     font-weight: bolder;
-    line-height: 4rem;
+    //line-height: 4rem;
     font-size: 3rem; 
 }
 
@@ -194,10 +194,11 @@ a{
 @media only screen and (min-width: 2000px) and (max-width: 2500px) {
 	.txt{
         
-         letter-spacing: -0.3rem;
+        letter-spacing: -0.3rem;
         line-height: 18rem;
         font-size: 20rem;
-         letter-spacing: -1rem; 
+        letter-spacing: -1rem; 
+       
     }
         .i-f {
     letter-spacing: 0.4rem;
@@ -261,14 +262,16 @@ a{
 @media only screen and (min-width: 360px) and (max-width: 768px) {
 	.txt{
         
-        letter-spacing: -0.3rem;
+        letter-spacing: -0.1rem;
         line-height: 4rem;
-        font-size: 5rem;
+        font-size: 4rem;
+        padding: 0px;
+
        
         
     }
     .cnt{
-    padding-top: 0px;
+    padding-bottom: 0px;
     }   
     .i-f {
     letter-spacing: 0.4rem;
@@ -281,7 +284,7 @@ a{
 
     .w-dev {
     padding-top: 0px;
-    line-height: 4rem;
+    
     font-size: 1.5rem;
     
     }

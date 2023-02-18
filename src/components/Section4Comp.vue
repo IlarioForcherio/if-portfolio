@@ -2,8 +2,8 @@
     <div>
         <!-- quarta-sezione -->
         <section class="section">
-            <div class="container">
-                <div class="row">
+            <div class="container-fluid">
+                <div class="row w-75 m-auto">
                     <!-- about -->
                     <div   class=" col-lg-12">
                         <h2 data-aos="fade-right" id="about" class="txt ">About <span style="color:orange">myself</span></h2>
@@ -103,18 +103,19 @@ img {
 }
 	.txt{
    
-   font-size: 2rem;
+   font-size: 1.5rem;
     padding-right:0px;
     padding-top: 20px;
-   // text-align: center;
+   text-align: center;
     line-height: 2rem;
   }
   .line{
    
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     }
+     p{
+    font-size: 0.7rem;
     }
-    p{
-    font-size: 1rem;
-    }
+}
+   
 </style>

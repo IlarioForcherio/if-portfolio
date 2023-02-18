@@ -2,7 +2,7 @@
     <div>
         <!-- terza-sezione -->
         <section class="section">
-            <div class="container m-auto ">
+            <div class="container-fluid w-75 m-auto ">
     
                 <div class="row">
                     <!-- stack -->
@@ -167,10 +167,10 @@ img {
     }
 	.txt{
    
-   font-size: 2rem;
+   font-size: 1.5rem;
    padding-top:20px ;
     padding-right:0px;
-    //text-align: center;
+    text-align: center;
     line-height: 2rem;
   }
    .line{
