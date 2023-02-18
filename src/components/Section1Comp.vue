@@ -4,8 +4,8 @@
         <main>
             <section class="section">
                 <!-- prima-sezione -->
-                <div class="container-fluid">
-                    <div class="row w-90">
+                <div class="container">
+                    <div class="bw row w-90">
                         <!-- tessto -->
                         <div class="col-lg-12   load-transition">
                             <div class="row">
@@ -96,12 +96,13 @@ a{
 
 .txt {
     text-align: center;
-    font-size: 10rem;
+    font-size: 7.5rem;
     color: white;
     font-family: Helvetica Neue;
     font-weight: bold;
-    line-height: 8rem;
-    letter-spacing: -0.8rem;
+    line-height: 7rem;
+    letter-spacing: -0.3rem;
+    padding:40px;
 }
 
 .load-transition {
@@ -109,16 +110,13 @@ a{
     animation: fadeIn 3s forwards;
 }
 
-.cnt{
-    padding-top: 30px;
-}
+// .cnt{
+//     padding-top: 30px;
+// }
 
 .i-f {
-
-    
-    padding-top: 20px;
     color: rgb(255, 165, 0);
-    font-size: 4rem;
+    font-size: 3rem;
     font-family:'Helvetica Neue';
     font-weight: bolder;
     //overflow-wrap: normal;
@@ -126,11 +124,10 @@ a{
 }
 
 .w-dev {
-    padding-top: 30px;
     font-family: 'Helvetica Neue';
     font-weight: bolder;
     line-height: 4rem;
-    font-size: 4rem; 
+    font-size: 3rem; 
 }
 
 .contact {
@@ -289,7 +286,7 @@ a{
     
     }
     .contact{
-        margin-top:0px;
+        margin-top:50px;
         margin-bottom: 30px;
     }
 }

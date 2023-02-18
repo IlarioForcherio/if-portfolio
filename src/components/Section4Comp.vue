@@ -2,15 +2,15 @@
     <div>
         <!-- quarta-sezione -->
         <section class="section">
-            <div class="container-fluid ">
+            <div class="container">
                 <div class="row">
                     <!-- about -->
-                    <div data-aos="fade-right"  class=" col-lg-12">
-                        <h2 id="about" class="txt ">About <span style="color:orange">myself</span></h2>
+                    <div   class=" col-lg-12">
+                        <h2 data-aos="fade-right" id="about" class="txt ">About <span style="color:orange">myself</span></h2>
                         <div class="line"></div>
                     </div>
                     <!-- text-p-->
-                    <div data-aos="fade-right" class=" col-lg-6 m-auto">
+                    <div data-aos="fade-left" class=" col-lg-6 m-auto">
                         <p  class="text-center p-4 text-white"> "Mi chiamo Ilario e sono un Junior Full Stack Developer. Prima di approdare nel mondo dello sviluppo web ho lavorato molti anni in un settore diverso, fino al momento in cui ho deciso che avrei voluto cambiare vita per accogliere
                             nuove sfide. Il Master Boolean me ne ha dato la possibilita' e ha trasformato in poco tempo una nuova scoperta in una grande passione. Ho imparato a mettermi in gioco e voglio continuare a farlo, quotidianamente e con entusiasmo."</p>
                     </div>
@@ -56,7 +56,7 @@ export default {
 
 <style lang="scss" scoped>
 .section{
-    padding-top:80px;
+    padding-top:70px;
 }
 
 .line{
@@ -72,12 +72,12 @@ export default {
     font-weight: bold;
     line-height: 4rem;
     letter-spacing: 0rem;
-    padding-top: 80px;
+   // padding-top: 80px;
     text-align: end;
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 img {

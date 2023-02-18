@@ -2,10 +2,10 @@
     <div>
         <!-- seconda-sezione -->
         <section class="section">
-            <div class=" container-fluid m-auto">
+            <div class=" container m-auto">
                 <div class="row align-items-end ">                                    <!-- text -->
-                    <div data-aos="fade-left"  class="col-lg-12">
-                        <h2 id='portfolio' class="txt">Take a  <span style="color:orange">look</span> at my work</h2>
+                    <div class="col-lg-12">
+                        <h2 data-aos="fade-left" id='portfolio' class="txt">Take a look at my<span style="color:orange"> work</span></h2>
                         <div class="line"></div>  
                     </div>
                     <!-- carousel -->
@@ -19,16 +19,16 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <!-- <img src="#" class="d-block w-100" alt=""> -->
-                                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/8PRl3J8KlKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                </div>
-                                <div class="carousel-item">
-                                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/DiLwQ73z-gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/L3eyiwgfdGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                                 <div class="carousel-item">
                                     <iframe width="100%" height="300" src="https://www.youtube.com/embed/El67qcPkJU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                                 <div class="carousel-item">
-                                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/L3eyiwgfdGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/DiLwQ73z-gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="carousel-item">
+                                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/8PRl3J8KlKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -95,6 +95,7 @@ export default {
 .line{
     border:1px solid rgb(107, 106, 106);
     margin-bottom: 100px;
+    
 }
 
 .section{
@@ -106,7 +107,6 @@ export default {
     font-family: Helvetica Neue;
     font-weight: bold;
     line-height: 4rem;
-    padding-right: 150px;
     text-align:start;
 }
 .bw {

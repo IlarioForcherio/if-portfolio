@@ -3,11 +3,11 @@
     <div>
         <footer>
             <section class="section">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
                         <!-- contact-me-here -->
-                        <div data-aos="fade-left" class="col-lg-12">
-                            <h3 id="contact" class=" txt">Contact Me <span style="color:orange">Here</span></h3>
+                        <div class="col-lg-12">
+                            <h3 data-aos="fade-left" id="contact" class=" txt">Contact Me <span style="color:orange">Here</span></h3>
                             <div class="line"></div>
                         </div>
                         <!-- form-contacts -->

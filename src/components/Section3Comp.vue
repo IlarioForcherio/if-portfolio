@@ -1,13 +1,13 @@
 <template>
     <div>
         <!-- terza-sezione -->
-        <section class="section ">
-            <div class="container-fluid m-auto ">
+        <section class="section">
+            <div class="container m-auto ">
     
                 <div class="row">
                     <!-- stack -->
-                    <div data-aos="fade-left" class="col-sm-12 col-lg-12 ">
-                        <h2 class="txt">This is<span style="color:orange"> my</span> stack</h2>
+                    <div  class="col-sm-12 col-lg-12 ">
+                        <h2 data-aos="fade-left" class="txt">This is my <span style="color:orange">stack</span></h2>
                         <div class="line"></div>
                     </div>
                     <!-- carousel -->
@@ -121,7 +121,7 @@ export default {
     line-height: 4rem;
     letter-spacing: 0rem;
     padding-right: 100px;
-    padding-top: 50px;
+   // padding-top: 50px;
     
 }
 
