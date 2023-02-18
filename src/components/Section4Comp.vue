@@ -112,6 +112,9 @@ img {
   .line{
    
     margin-bottom: 50px;
-}
-}
+    }
+    }
+    p{
+    font-size: 1rem;
+    }
 </style>
