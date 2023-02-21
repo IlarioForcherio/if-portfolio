@@ -59,7 +59,7 @@
             </section>
             <div class="row">
                 <div class="col-sm-12">
-                      <!-- <pokedex-app /> -->
+                      <pokedex-app />
                 </div>
             </div>
       
