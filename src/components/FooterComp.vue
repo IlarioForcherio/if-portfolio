@@ -7,12 +7,12 @@
                     <div class="row">
                         <!-- contact-me-here -->
                         <div class="col-lg-12">
-                            <h3 data-aos="fade-left" id="contact" class=" txt">Contact Me <span style="color:orange">Here</span></h3>
+                            <h3 data-aos="fade-right" id="contact" class=" txt">Contact Me <span style="color:orange">Here</span></h3>
                             <div class="line"></div>
                         </div>
                         <!-- form-contacts -->
                         <div class="col-lg-6 m-auto">
-                            <form data-aos="fade-right" ref="form" @submit.prevent="sendEmail" class="bw row g-3 text-white p-4">
+                            <form data-aos="fade-left" ref="form" @submit.prevent="sendEmail" class="bw row g-3 text-white p-4">
                                 <div class="col-md-6">
                                     <input v-model="name" type="text" name="user_name" placeholder="Name" class="form-control">
                                 </div>
