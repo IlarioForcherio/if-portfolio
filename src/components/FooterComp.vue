@@ -57,7 +57,12 @@
     
     
             </section>
-        <pokedex-app />
+            <div class="row">
+                <div class="col-sm-12">
+                      <!-- <pokedex-app /> -->
+                </div>
+            </div>
+      
         </footer>
     </div>
 </template>

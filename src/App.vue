@@ -54,7 +54,7 @@ export default {
 
 #app {
       width: 100%;
-      font-family: Helvetica Neue;
+      font-family: Helvetica Neue !important;
       //font-weight: bold;
     overflow-x: hidden;
    
