@@ -7,10 +7,7 @@ Vue.use(Embed);
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-//pokedex
-import PokedexApp from 'pok-dex/src/PokedexApp.vue'
 
-Vue.component('pokedex-app', PokedexApp)
 
 
  /* add font awesome icon component */
