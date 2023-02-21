@@ -79,7 +79,7 @@ a{
 
 .section {
     // padding-bottom: 100px;
-    padding-top: 70px; //width: 100%; //border-bottom: 1px solid rgb(66, 65, 65);
+    padding-top: 100px; //width: 100%; //border-bottom: 1px solid rgb(66, 65, 65);
 }
 
 // .w-90 {
