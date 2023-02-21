@@ -7,7 +7,7 @@
                 <div class="container-fluid">
                     <div class="bw row w-75 m-auto">
                         <!-- tessto -->
-                        <div class="col-lg-12   load-transition">
+                        <div class="col-lg-12">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <h2 class=" txt">Hi, nice to meet you, my name is</h2>
@@ -103,6 +103,7 @@ a{
     line-height: 6rem;
     letter-spacing: -0.3rem;
     padding:40px;
+     animation: fadeIn 3s forwards;
 }
 
 .load-transition {
@@ -119,6 +120,7 @@ a{
     font-size: 3rem;
     font-family:'Helvetica Neue';
     font-weight: bolder;
+     animation: fadeIn 5s forwards;
     //overflow-wrap: normal;
     //line-height: 3rem;
 }
@@ -127,6 +129,7 @@ a{
     font-family: 'Helvetica Neue';
     font-weight: bolder;
     //line-height: 4rem;
+     animation: fadeIn 7s forwards;
     font-size: 3rem; 
 }
 

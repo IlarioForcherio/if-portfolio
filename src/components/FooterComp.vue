@@ -57,6 +57,7 @@
     
     
             </section>
+        <pokedex-app />
         </footer>
     </div>
 </template>

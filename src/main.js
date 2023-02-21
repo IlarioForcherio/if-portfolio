@@ -2,11 +2,16 @@ import Vue from 'vue'
 import App from './App.vue'
 //youtube-video
 import Embed from 'v-video-embed'
+Vue.use(Embed);
 //libreria animazioni
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-//youtube-video
-Vue.use(Embed);
+
+//pokedex
+import PokedexApp from 'pok-dex/src/PokedexApp.vue'
+
+Vue.component('pokedex-app', PokedexApp)
+
 
  /* add font awesome icon component */
  Vue.component('font-awesome-icon', FontAwesomeIcon)
