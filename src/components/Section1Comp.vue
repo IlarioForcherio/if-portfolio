@@ -205,12 +205,12 @@ a{
     }
         .i-f {
     letter-spacing: 0.4rem;
-    font-size: 6rem;
+    font-size: 4rem;
     }
     .w-dev {
     padding-top: 0px;
-    line-height: 4rem;
-    font-size: 7rem; 
+    //line-height: 4rem;
+    font-size: 4rem; 
     }
     
 }
@@ -219,15 +219,15 @@ a{
 	.txt{
        
          letter-spacing: -0.3rem;
-        line-height: 16.5rem;
-        font-size: 18rem;
-         letter-spacing: -1rem;
+        line-height: 9rem;
+        font-size:10rem;
+         letter-spacing:- 0.9rem;
        
         
     }
     .i-f {
     letter-spacing: 0.4rem;
-    padding-top: 10px;
+    //padding-top: 10px;
     font-size: 5rem;
     //overflow-wrap: normal;
     //line-height: 2.5rem;
@@ -235,8 +235,8 @@ a{
 
 .w-dev {
     padding-top: 0px;
-    line-height: 4rem;
-    font-size: 5rem; 
+    line-height: 6rem;
+    font-size: 6rem; 
 }
 }
 

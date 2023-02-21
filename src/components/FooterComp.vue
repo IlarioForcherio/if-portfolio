@@ -215,6 +215,13 @@ form {
   }
 }
 //---------------------------------------------MEDIA-QUERY---------------------------------------------------------//
+@media only screen and (min-width: 1300px) and (max-width: 2000px){
+    .txt{
+        font-size: 4rem;
+         
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
     .txt {
        // text-align: center;

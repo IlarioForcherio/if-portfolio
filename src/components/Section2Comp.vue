@@ -143,7 +143,7 @@ export default {
 }
 @media only screen and (min-width: 1300px) and (max-width: 2000px){
     .txt{
-        text-align:center;
+        font-size: 4rem;
          padding-right: 0px;
     }
 }
